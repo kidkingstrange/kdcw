@@ -1,0 +1,89 @@
+{
+  "levelNumber": 169,
+  "titleId": "city-hunter-2011",
+  "originalTitle": "City Hunter",
+  "difficulty": "Expert",
+  "emojis": [
+    "🏙️",
+    "🎯",
+    "🔫",
+    "🛡️"
+  ],
+  "triviaFact": "Adapted from Tsukasa Hojo's iconic manga, shifting the setting from Tokyo to modern-day Seoul.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/City_Hunter_(South_Korean_TV_series)",
+    "https://koreajoongangdaily.joins.com/2011/05/25/etc/Lee-Minho-aims-to-hunt-down-ratings-glory/2936657.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

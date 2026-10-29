@@ -1,0 +1,83 @@
+{
+  "levelNumber": 127,
+  "titleId": "doctor-cha-2023",
+  "originalTitle": "Doctor Cha",
+  "difficulty": "Hard",
+  "emojis": [
+    "🩺",
+    "👩‍⚕️",
+    "🏥",
+    "🍰"
+  ],
+  "triviaFact": "Uhm Jung-hwa scored a triumphant television resurgence as a 46-year-old housewife fulfilling her lifelong doctor dream.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Doctor_Cha",
+    "https://en.yna.co.kr/view/AEN20230605001200315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

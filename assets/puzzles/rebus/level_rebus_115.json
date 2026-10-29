@@ -1,0 +1,78 @@
+{
+  "levelNumber": 115,
+  "titleId": "the-glory-2023",
+  "originalTitle": "The Glory",
+  "difficulty": "Hard",
+  "emojis": [
+    "⚪",
+    "⚫",
+    "🧲",
+    "👠",
+    "🩸"
+  ],
+  "triviaFact": "Song Hye-kyo's sarcastic applause catchphrase 'Bravo, Park Yeon-jin!' became South Korea's biggest meme of 2023.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/The_Glory_(TV_series)",
+    "https://en.yna.co.kr/view/AEN20230327002000315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

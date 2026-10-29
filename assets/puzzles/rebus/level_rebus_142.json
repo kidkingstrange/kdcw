@@ -1,0 +1,82 @@
+{
+  "levelNumber": 142,
+  "titleId": "flex-x-cop-2024",
+  "originalTitle": "Flex X Cop",
+  "difficulty": "Hard",
+  "emojis": [
+    "🚁",
+    "💳",
+    "🚔",
+    "🛥️"
+  ],
+  "triviaFact": "Ahn Bo-hyun used actual luxury yachts and sports cars in high-octane comedic police investigation sequences.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Flex_X_Cop",
+    "https://en.yna.co.kr/view/AEN20240324001000315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "F",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "X",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "X",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 2,
+      "slots": [
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

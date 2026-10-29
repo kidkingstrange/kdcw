@@ -1,0 +1,95 @@
+{
+  "levelNumber": 137,
+  "titleId": "good-partner-2024",
+  "originalTitle": "Good Partner",
+  "difficulty": "Hard",
+  "emojis": [
+    "⚖️",
+    "💔",
+    "👩‍💼",
+    "📑"
+  ],
+  "triviaFact": "Penned by actual real-life high-profile divorce attorney Choi Yu-na, infusing authentic courtroom realism into every episode.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Good_Partner",
+    "https://en.yna.co.kr/view/AEN20240921001400315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

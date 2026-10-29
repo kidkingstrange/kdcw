@@ -1,0 +1,89 @@
+{
+  "levelNumber": 177,
+  "titleId": "bridal-mask-2012",
+  "originalTitle": "Bridal Mask",
+  "difficulty": "Expert",
+  "emojis": [
+    "🎭",
+    "⚔️",
+    "🐎",
+    "🛡️"
+  ],
+  "triviaFact": "Based on Huh Young-man's 1974 manhwa, depicting a masked vigilante fighting colonial oppression in 1930s Korea.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Bridal_Mask",
+    "https://www.koreatimes.co.kr/www/art/2012/09/201_119420.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "B",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "K",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

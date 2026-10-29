@@ -1,0 +1,78 @@
+{
+  "levelNumber": 130,
+  "titleId": "celebrity-2023",
+  "originalTitle": "Celebrity",
+  "difficulty": "Hard",
+  "emojis": [
+    "📱",
+    "👗",
+    "✨",
+    "💄"
+  ],
+  "triviaFact": "Exposed the ruthless vanity, shadow agencies, and cyber harassment powering South Korea's elite influencer industry.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Celebrity_(TV_series)",
+    "https://en.yna.co.kr/view/AEN20230712003800315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "B",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

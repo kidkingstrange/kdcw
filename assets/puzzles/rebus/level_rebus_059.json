@@ -1,0 +1,96 @@
+{
+  "levelNumber": 59,
+  "titleId": "mr-sunshine-2018",
+  "originalTitle": "Mr. Sunshine",
+  "difficulty": "Medium",
+  "emojis": [
+    "🇺🇸",
+    "🇰🇷",
+    "🔫",
+    "🎵",
+    "🏨"
+  ],
+  "triviaFact": "Depicted the historical struggles of Korea's Righteous Army freedom fighters in the early 1900s.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Mr._Sunshine",
+    "https://en.yna.co.kr/view/AEN20181001002200315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": ".",
+          "isPunctuation": true,
+          "userChar": ".",
+          "isLocked": true
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

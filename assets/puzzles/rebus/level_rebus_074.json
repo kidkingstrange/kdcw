@@ -1,0 +1,89 @@
+{
+  "levelNumber": 74,
+  "titleId": "search-www-2019",
+  "originalTitle": "Search: WWW",
+  "difficulty": "Medium",
+  "emojis": [
+    "🔍",
+    "💻",
+    "👠",
+    "📱"
+  ],
+  "triviaFact": "Screenwriter Kwon Do-eun worked as an assistant to Kim Eun-sook before penning this stylish search-portal workplace drama.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Search:_WWW",
+    "https://koreajoongangdaily.joins.com/2019/07/26/etc/Search-WWW-concludes-with-high-ratings/3066060.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": ":",
+          "isPunctuation": true,
+          "userChar": ":",
+          "isLocked": true
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "W",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "W",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "W",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

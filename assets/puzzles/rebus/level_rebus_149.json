@@ -1,0 +1,100 @@
+{
+  "levelNumber": 149,
+  "titleId": "rain-or-shine-2017",
+  "originalTitle": "Rain or Shine",
+  "difficulty": "Hard",
+  "emojis": [
+    "🌧️",
+    "🏢",
+    "🩹",
+    "🏗️"
+  ],
+  "triviaFact": "Depicted two traumatized survivors finding shared healing years after surviving a catastrophic commercial building collapse.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Rain_or_Shine_(TV_series)",
+    "https://koreajoongangdaily.joins.com/2018/01/31/etc/Just-Between-Lovers-finishes-strong/3044031.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 2,
+      "slots": [
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

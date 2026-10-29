@@ -1,0 +1,71 @@
+{
+  "levelNumber": 87,
+  "titleId": "18-again-2020",
+  "originalTitle": "18 Again",
+  "difficulty": "Medium",
+  "emojis": [
+    "🏀",
+    "⏰",
+    "⛹️",
+    "📺"
+  ],
+  "triviaFact": "Lee Do-hyun won the Baeksang Best New Actor award for playing a 37-year-old father trapped in an 18-year-old body.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/18_Again",
+    "https://en.yna.co.kr/view/AEN20201111002200315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "1",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "8",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

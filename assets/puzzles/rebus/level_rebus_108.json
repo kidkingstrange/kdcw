@@ -1,0 +1,78 @@
+{
+  "levelNumber": 108,
+  "titleId": "our-blues-2022",
+  "originalTitle": "Our Blues",
+  "difficulty": "Medium",
+  "emojis": [
+    "🌊",
+    "🐟",
+    "🏝️",
+    "🎨",
+    "🚛"
+  ],
+  "triviaFact": "Cast real-life artist Jung Eun-hye as Young-hui, making television history for Down syndrome representation in Korea.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Our_Blues",
+    "https://www.koreatimes.co.kr/www/art/2022/06/688_330691.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "B",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

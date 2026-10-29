@@ -1,0 +1,83 @@
+{
+  "levelNumber": 25,
+  "titleId": "empress-ki-2013",
+  "originalTitle": "Empress Ki",
+  "difficulty": "Easy",
+  "emojis": [
+    "👑",
+    "🦅",
+    "⚔️",
+    "💍"
+  ],
+  "triviaFact": "Ha Ji-won swept the MBC Drama Awards Grand Prize for her 51-episode performance as Empress Ki.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Empress_Ki_(TV_series)",
+    "https://en.yna.co.kr/view/AEN20140430002100315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "K",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

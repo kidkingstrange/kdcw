@@ -1,0 +1,78 @@
+{
+  "levelNumber": 27,
+  "titleId": "pinocchio-2014",
+  "originalTitle": "Pinocchio",
+  "difficulty": "Easy",
+  "emojis": [
+    "🤥",
+    "📺",
+    "🎤",
+    "🍞"
+  ],
+  "triviaFact": "The female lead suffers from fictional 'Pinocchio syndrome', causing violent hiccups whenever she lies.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Pinocchio_(2014_TV_series)",
+    "https://koreajoongangdaily.joins.com/2015/01/16/etc/Pinocchio-ends-on-high-note/2999718.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

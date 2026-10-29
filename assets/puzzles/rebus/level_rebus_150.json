@@ -1,0 +1,48 @@
+{
+  "levelNumber": 150,
+  "titleId": "live-2018",
+  "originalTitle": "Live",
+  "difficulty": "Hard",
+  "emojis": [
+    "👮",
+    "🚔",
+    "🚨",
+    "📑"
+  ],
+  "triviaFact": "Critically praised for rejecting glamorous action tropes to highlight the raw daily physical struggles of Korean neighborhood patrol cops.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Live_(South_Korean_TV_series)",
+    "https://en.yna.co.kr/view/AEN20180507002000315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "V",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

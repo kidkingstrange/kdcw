@@ -1,0 +1,88 @@
+{
+  "levelNumber": 36,
+  "titleId": "oh-my-ghost-2015",
+  "originalTitle": "Oh My Ghost",
+  "difficulty": "Easy",
+  "emojis": [
+    "👻",
+    "🍳",
+    "🔪",
+    "🍲"
+  ],
+  "triviaFact": "Park Bo-young displayed incredible comedic range shifting between timid assistant and flirtatious possessed ghost.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Oh_My_Ghost_(South_Korean_TV_series)",
+    "https://www.kpopherald.com/view.php?ud=201508231515259838708_2"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 2,
+      "slots": [
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

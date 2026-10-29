@@ -1,0 +1,1171 @@
+{
+  "levelNumber": 118,
+  "title": "Crash Course in Romance",
+  "difficulty": "Hard",
+  "rows": 10,
+  "cols": 10,
+  "clues": [
+    {
+      "id": "clue-1249-l118",
+      "number": 1,
+      "direction": "across",
+      "clue": "Memorable character appearing in Crash Course in Romance",
+      "answer": "NAMHAEYI",
+      "startRow": 1,
+      "startCol": 1,
+      "length": 8
+    },
+    {
+      "id": "clue-1251-l118",
+      "number": 2,
+      "direction": "down",
+      "clue": "Secondary genre dimension woven into Crash Course in Romance",
+      "answer": "CAMEDY",
+      "startRow": 0,
+      "startCol": 2,
+      "length": 6
+    },
+    {
+      "id": "clue-1250-l118",
+      "number": 3,
+      "direction": "across",
+      "clue": "Primary storytelling genre classification for Crash Course in Romance",
+      "answer": "ROMANCE",
+      "startRow": 5,
+      "startCol": 1,
+      "length": 7
+    },
+    {
+      "id": "clue-1252-l118",
+      "number": 4,
+      "direction": "down",
+      "clue": "Broadcast network or platform behind Crash Course in Romance",
+      "answer": "HVNSAO",
+      "startRow": 1,
+      "startCol": 4,
+      "length": 6
+    }
+  ],
+  "grid": [
+    [
+      {
+        "row": 0,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "correctLetter": "C",
+        "isBlocked": false,
+        "number": 2,
+        "acrossClueId": null,
+        "downClueId": "clue-1251-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 7,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 0,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 1,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "correctLetter": "N",
+        "isBlocked": false,
+        "number": 1,
+        "acrossClueId": "clue-1249-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "correctLetter": "A",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1249-l118",
+        "downClueId": "clue-1251-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "correctLetter": "M",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1249-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "correctLetter": "H",
+        "isBlocked": false,
+        "number": 4,
+        "acrossClueId": "clue-1249-l118",
+        "downClueId": "clue-1252-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "correctLetter": "A",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1249-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "correctLetter": "E",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1249-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 7,
+        "correctLetter": "Y",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1249-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "correctLetter": "I",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1249-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 2,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "correctLetter": "M",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": "clue-1251-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "correctLetter": "V",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": "clue-1252-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 7,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 2,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 3,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "correctLetter": "E",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": "clue-1251-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "correctLetter": "N",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": "clue-1252-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 7,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 3,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 4,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "correctLetter": "D",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": "clue-1251-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "correctLetter": "S",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": "clue-1252-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 7,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 4,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 5,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "correctLetter": "R",
+        "isBlocked": false,
+        "number": 3,
+        "acrossClueId": "clue-1250-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "correctLetter": "Y",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1250-l118",
+        "downClueId": "clue-1251-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "correctLetter": "M",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1250-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "correctLetter": "A",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1250-l118",
+        "downClueId": "clue-1252-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "correctLetter": "N",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1250-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "correctLetter": "C",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1250-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 7,
+        "correctLetter": "E",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": "clue-1250-l118",
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 6,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "correctLetter": "O",
+        "isBlocked": false,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": "clue-1252-l118",
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 7,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 6,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 7,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 7,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 7,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 8,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 6,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 7,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 8,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ],
+    [
+      {
+        "row": 9,
+        "col": 0,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 7,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 8,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "correctLetter": "",
+        "isBlocked": true,
+        "number": null,
+        "acrossClueId": null,
+        "downClueId": null,
+        "userLetter": "",
+        "isLocked": false
+      }
+    ]
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "levelNumber": 51,
+  "titleId": "stranger-2017",
+  "originalTitle": "Stranger",
+  "difficulty": "Medium",
+  "emojis": [
+    "🌲",
+    "⚖️",
+    "🧠",
+    "🔍"
+  ],
+  "triviaFact": "Selected by the New York Times as one of the best international television shows of 2017.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Stranger_(TV_series)",
+    "https://www.nytimes.com/2017/12/04/arts/television/best-tv-shows.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

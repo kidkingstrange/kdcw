@@ -1,0 +1,77 @@
+{
+  "levelNumber": 60,
+  "titleId": "my-mister-2018",
+  "originalTitle": "My Mister",
+  "difficulty": "Medium",
+  "emojis": [
+    "🎧",
+    "🚇",
+    "☕",
+    "🏢"
+  ],
+  "triviaFact": "Widely regarded by global critics as one of the finest South Korean television dramas ever written.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/My_Mister",
+    "https://en.yna.co.kr/view/AEN20180518002800315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

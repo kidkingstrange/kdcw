@@ -1,0 +1,60 @@
+{
+  "levelNumber": 57,
+  "titleId": "tunnel-2017",
+  "originalTitle": "Tunnel",
+  "difficulty": "Medium",
+  "emojis": [
+    "🚇",
+    "⏳",
+    "🚔",
+    "🔍"
+  ],
+  "triviaFact": "A detective chases a serial killer through an underground tunnel in 1986 and emerges 30 years into the future.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Tunnel_(TV_series)",
+    "https://koreajoongangdaily.joins.com/2017/05/22/etc/Tunnel-breaks-ratings-record/3033621.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

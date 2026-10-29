@@ -1,0 +1,83 @@
+{
+  "levelNumber": 185,
+  "titleId": "reply-1994-2013",
+  "originalTitle": "Reply 1994",
+  "difficulty": "Expert",
+  "emojis": [
+    "⚾",
+    "🏀",
+    "🏠",
+    "1️⃣9️⃣9️⃣4️⃣"
+  ],
+  "triviaFact": "Depicted students from different countryside provinces living together in a Seoul boarding house in 1994.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Reply_1994",
+    "https://en.yna.co.kr/view/AEN20131229001300315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "1",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "9",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "9",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "4",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

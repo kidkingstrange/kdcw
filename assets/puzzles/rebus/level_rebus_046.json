@@ -1,0 +1,95 @@
+{
+  "levelNumber": 46,
+  "titleId": "dr-romantic-2016",
+  "originalTitle": "Dr. Romantic",
+  "difficulty": "Easy",
+  "emojis": [
+    "🩺",
+    "🏥",
+    "💉",
+    "🌲"
+  ],
+  "triviaFact": "Han Suk-kyu's portrayal of eccentric genius mentor Master Kim spawned three award-winning seasons.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Dr._Romantic",
+    "https://koreajoongangdaily.joins.com/2017/01/17/etc/Romantic-Doctor-wraps-up-with-top-ratings/3028751.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": ".",
+          "isPunctuation": true,
+          "userChar": ".",
+          "isLocked": true
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

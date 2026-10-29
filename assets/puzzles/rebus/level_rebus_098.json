@@ -1,0 +1,78 @@
+{
+  "levelNumber": 98,
+  "titleId": "hellbound-2021",
+  "originalTitle": "Hellbound",
+  "difficulty": "Medium",
+  "emojis": [
+    "👹",
+    "🔥",
+    "📜",
+    "📹"
+  ],
+  "triviaFact": "Created by 'Train to Busan' director Yeon Sang-ho, premiering as the first Korean series at the Toronto Film Festival.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Hellbound_(TV_series)",
+    "https://variety.com/2021/film/festivals/hellbound-toronto-film-festival-korean-drama-1235061618/"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "B",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

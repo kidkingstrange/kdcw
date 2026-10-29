@@ -1,0 +1,77 @@
+{
+  "levelNumber": 163,
+  "titleId": "black-out-2024",
+  "originalTitle": "Black Out",
+  "difficulty": "Hard",
+  "emojis": [
+    "🕯️",
+    "🚔",
+    "🔍",
+    "⛓️"
+  ],
+  "triviaFact": "Invited to screen at the 7th Cannes International Series Festival (Canneseries) prior to domestic broadcast.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Black_Out_(TV_series)",
+    "https://en.yna.co.kr/view/AEN20241005001400315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "B",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "K",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "levelNumber": 56,
+  "titleId": "voice-2017",
+  "originalTitle": "Voice",
+  "difficulty": "Medium",
+  "emojis": [
+    "📞",
+    "👂",
+    "🚔",
+    "🔔"
+  ],
+  "triviaFact": "Lee Ha-na played a profiler with heightened psycho-acoustic hearing capability capable of tracking calls down to seconds.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Voice_(TV_series)",
+    "https://en.yna.co.kr/view/AEN20170313002600315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "V",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

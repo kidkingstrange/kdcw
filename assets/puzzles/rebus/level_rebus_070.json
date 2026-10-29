@@ -1,0 +1,66 @@
+{
+  "levelNumber": 70,
+  "titleId": "kingdom-2019",
+  "originalTitle": "Kingdom",
+  "difficulty": "Medium",
+  "emojis": [
+    "🧟",
+    "👑",
+    "🌿",
+    "⚔️"
+  ],
+  "triviaFact": "Netflix's first original Korean series, blending political dynastic intrigue with terrifying period zombie horror.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Kingdom_(South_Korean_TV_series)",
+    "https://www.nytimes.com/2020/03/13/arts/television/kingdom-season-2-netflix.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "K",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

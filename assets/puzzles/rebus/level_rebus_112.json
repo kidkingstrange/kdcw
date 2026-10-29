@@ -1,0 +1,78 @@
+{
+  "levelNumber": 112,
+  "titleId": "big-mouth-2022",
+  "originalTitle": "Big Mouth",
+  "difficulty": "Hard",
+  "emojis": [
+    "🐁",
+    "⛓️",
+    "⚖️",
+    "💉",
+    "💰"
+  ],
+  "triviaFact": "Lee Jong-suk won the MBC Drama Awards Grand Prize (Daesang) for his electrifying dual-identity prison survival performance.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Big_Mouth_(South_Korean_TV_series)",
+    "https://en.yna.co.kr/view/AEN20221231000600315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "B",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

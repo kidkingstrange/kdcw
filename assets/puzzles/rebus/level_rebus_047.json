@@ -1,0 +1,59 @@
+{
+  "levelNumber": 47,
+  "titleId": "the-k2-2016",
+  "originalTitle": "The K2",
+  "difficulty": "Easy",
+  "emojis": [
+    "🛡️",
+    "🍜",
+    "💻",
+    "🕶️"
+  ],
+  "triviaFact": "Song Yoon-ah received widespread acclaim for her multifaceted villain role as political matriarch Choi Yoo-jin.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/The_K2",
+    "https://www.kpopherald.com/view.php?ud=201611131441221431102_2"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "K",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "2",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

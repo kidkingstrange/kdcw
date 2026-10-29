@@ -1,0 +1,89 @@
+{
+  "levelNumber": 86,
+  "titleId": "true-beauty-2020",
+  "originalTitle": "True Beauty",
+  "difficulty": "Medium",
+  "emojis": [
+    "💄",
+    "🏍️",
+    "📚",
+    "🏫"
+  ],
+  "triviaFact": "Adapted from Yaongyi's webtoon which garnered over 4 billion views internationally on Webtoon.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/True_Beauty_(South_Korean_TV_series)",
+    "https://koreajoongangdaily.joins.com/2021/02/05/etc/True-Beauty-ends-on-high/3086960.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "B",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

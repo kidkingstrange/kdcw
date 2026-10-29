@@ -1,0 +1,84 @@
+{
+  "levelNumber": 33,
+  "titleId": "reply-1988-2015",
+  "originalTitle": "Reply 1988",
+  "difficulty": "Easy",
+  "emojis": [
+    "🏘️",
+    "⚪",
+    "⚫",
+    "📻",
+    "1️⃣9️⃣8️⃣8️⃣"
+  ],
+  "triviaFact": "Held the record as the highest-rated cable television drama in South Korean history for over three years.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Reply_1988",
+    "https://en.yna.co.kr/view/AEN20160117001400315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "1",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "9",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "8",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "8",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

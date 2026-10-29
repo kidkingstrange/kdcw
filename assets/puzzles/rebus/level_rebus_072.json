@@ -1,0 +1,72 @@
+{
+  "levelNumber": 72,
+  "titleId": "vagabond-2019",
+  "originalTitle": "Vagabond",
+  "difficulty": "Medium",
+  "emojis": [
+    "✈️",
+    "💥",
+    "🔫",
+    "🇲🇦"
+  ],
+  "triviaFact": "Lee Seung-gi and Bae Suzy reunited after 'Gu Family Book' for high-budget stunt chases filmed across Morocco and Portugal.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Vagabond_(TV_series)",
+    "https://en.yna.co.kr/view/AEN20191124001100315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "V",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "B",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

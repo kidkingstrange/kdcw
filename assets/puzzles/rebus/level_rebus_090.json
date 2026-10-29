@@ -1,0 +1,84 @@
+{
+  "levelNumber": 90,
+  "titleId": "squid-game-2021",
+  "originalTitle": "Squid Game",
+  "difficulty": "Medium",
+  "emojis": [
+    "🦑",
+    "🍭",
+    "🔺",
+    "🟥",
+    "4️⃣5️⃣6️⃣"
+  ],
+  "triviaFact": "Lee Jung-jae became the first Asian actor in history to win the Primetime Emmy Award for Outstanding Lead Actor in a Drama.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Squid_Game",
+    "https://www.emmys.com/awards/nominees-winners/2022/outstanding-lead-actor-in-a-drama-series"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Q",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

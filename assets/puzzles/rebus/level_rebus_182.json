@@ -1,0 +1,77 @@
+{
+  "levelNumber": 182,
+  "titleId": "the-heirs-2013",
+  "originalTitle": "The Heirs",
+  "difficulty": "Expert",
+  "emojis": [
+    "👑",
+    "🏫",
+    "🏄",
+    "💎"
+  ],
+  "triviaFact": "Featured an ensemble of future superstar leads including Lee Min-ho, Park Shin-hye, and Kim Woo-bin.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/The_Heirs",
+    "https://koreajoongangdaily.joins.com/2013/12/13/etc/Heirs-wraps-up-with-record-ratings/2982025.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

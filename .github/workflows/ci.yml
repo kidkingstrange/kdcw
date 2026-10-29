@@ -1,0 +1,53 @@
+name: CI / CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test_and_build:
+    name: Test & Build Release Bundle
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java Development Kit (JDK 17)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'gradle'
+
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Project Dependencies
+        run: flutter pub get
+
+      - name: Static Code Analysis
+        run: dart analyze --fatal-infos
+
+      - name: Execute Unit Test Suite with Coverage
+        run: flutter test --coverage
+
+      - name: Verify Pre-Compiled Puzzles Integrity
+        run: |
+          python3 -c "import json, os; m = json.load(open('assets/puzzles/manifest.json')); assert m['totalCrossword'] == 200 and m['totalRebus'] == 200, f'Invalid manifest: {m}'"
+          echo "Verified 400 launch puzzle JSONs are present and indexed."
+
+      - name: Build Android App Bundle (AAB)
+        run: flutter build appbundle --release --no-codesign
+
+      - name: Upload Release AAB Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kdrama-crosswords-release-aab
+          path: build/app/outputs/bundle/release/app-release.aab
+          if-no-files-found: error

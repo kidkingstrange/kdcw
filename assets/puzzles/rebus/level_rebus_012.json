@@ -1,0 +1,83 @@
+{
+  "levelNumber": 12,
+  "titleId": "reply-1997-2012",
+  "originalTitle": "Reply 1997",
+  "difficulty": "Easy",
+  "emojis": [
+    "📼",
+    "📟",
+    "📻",
+    "1️⃣9️⃣9️⃣7️⃣"
+  ],
+  "triviaFact": "Started the celebrated 'Reply' retro series by capturing late-90s first-generation K-pop fandom culture.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Reply_1997",
+    "https://koreajoongangdaily.joins.com/2012/09/19/etc/Reply-1997-makes-cable-history/2959616.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "1",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "9",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "9",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "7",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

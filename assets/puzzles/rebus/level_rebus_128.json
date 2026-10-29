@@ -1,0 +1,84 @@
+{
+  "levelNumber": 128,
+  "titleId": "my-dearest-2023",
+  "originalTitle": "My Dearest",
+  "difficulty": "Hard",
+  "emojis": [
+    "🌾",
+    "⚔️",
+    "🪭",
+    "👟",
+    "❤️"
+  ],
+  "triviaFact": "Swept the 60th Baeksang Arts Awards winning both Best Drama and Best Actor for Namkoong Min.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/My_Dearest",
+    "https://en.yna.co.kr/view/AEN20240508000500315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

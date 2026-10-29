@@ -1,0 +1,61 @@
+{
+  "levelNumber": 116,
+  "titleId": "moving-2023",
+  "originalTitle": "Moving",
+  "difficulty": "Hard",
+  "emojis": [
+    "🦸",
+    "✈️",
+    "🍱",
+    "🩸",
+    "🎒"
+  ],
+  "triviaFact": "Swept the 60th Baeksang Arts Awards Grand Prize and Grand Bell Awards, setting Disney+ Asia viewership records.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Moving_(South_Korean_TV_series)",
+    "https://en.yna.co.kr/view/AEN20240508000500315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "V",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

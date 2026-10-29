@@ -1,0 +1,71 @@
+{
+  "levelNumber": 119,
+  "titleId": "my-demon-2023",
+  "originalTitle": "My Demon",
+  "difficulty": "Hard",
+  "emojis": [
+    "😈",
+    "✝️",
+    "💍",
+    "🍰"
+  ],
+  "triviaFact": "Song Kang played a 200-year-old pitiless demon who momentarily loses his supernatural powers to a cold chaebol heiress.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/My_Demon",
+    "https://en.yna.co.kr/view/AEN20240121001000315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

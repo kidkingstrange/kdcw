@@ -1,0 +1,73 @@
+{
+  "levelNumber": 91,
+  "titleId": "vincenzo-2021",
+  "originalTitle": "Vincenzo",
+  "difficulty": "Medium",
+  "emojis": [
+    "🇮🇹",
+    "⚖️",
+    "🕊️",
+    "🔥",
+    "🪙"
+  ],
+  "triviaFact": "Song Joong-ki studied conversational Italian with a language tutor specifically for his titular consigliere character.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Vincenzo_(TV_series)",
+    "https://en.yna.co.kr/view/AEN20210503002600315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "V",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Z",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

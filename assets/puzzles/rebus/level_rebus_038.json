@@ -1,0 +1,88 @@
+{
+  "levelNumber": 38,
+  "titleId": "oh-my-venus-2015",
+  "originalTitle": "Oh My Venus",
+  "difficulty": "Easy",
+  "emojis": [
+    "🏋️",
+    "🥗",
+    "⚖️",
+    "❤️"
+  ],
+  "triviaFact": "Shin Min-a wore realistic silicone prosthetic makeup for several hours every filming day to depict her character's transformation.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Oh_My_Venus",
+    "https://koreajoongangdaily.joins.com/2016/01/06/etc/Oh-My-Venus-ends-on-high/3013627.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 2,
+      "slots": [
+        {
+          "expectedChar": "V",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

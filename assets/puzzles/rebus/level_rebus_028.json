@@ -1,0 +1,60 @@
+{
+  "levelNumber": 28,
+  "titleId": "healer-2014",
+  "originalTitle": "Healer",
+  "difficulty": "Easy",
+  "emojis": [
+    "🏃",
+    "🕶️",
+    "📻",
+    "🌃"
+  ],
+  "triviaFact": "Ji Chang-wook did his own high-wire rooftop parkour stunts as the titular stealth errand boy Healer.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Healer_(TV_series)",
+    "https://www.kpopherald.com/view.php?ud=201502111718041838637_2"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

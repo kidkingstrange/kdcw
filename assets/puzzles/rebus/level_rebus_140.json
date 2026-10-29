@@ -1,0 +1,77 @@
+{
+  "levelNumber": 140,
+  "titleId": "the-trunk-2024",
+  "originalTitle": "The Trunk",
+  "difficulty": "Hard",
+  "emojis": [
+    "🧳",
+    "💍",
+    "🌊",
+    "🕯️"
+  ],
+  "triviaFact": "Brought together two of Korea's premier melodrama heavyweights, Seo Hyun-jin and Gong Yoo, in a secret marriage agency thriller.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/The_Trunk_(TV_series)",
+    "https://en.yna.co.kr/view/AEN20241129001100315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "K",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

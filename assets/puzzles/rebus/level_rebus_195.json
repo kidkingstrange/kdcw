@@ -1,0 +1,89 @@
+{
+  "levelNumber": 195,
+  "titleId": "you-who-came-from-the-stars-movie-2014",
+  "originalTitle": "The Pirates",
+  "difficulty": "Expert",
+  "emojis": [
+    "🏴‍☠️",
+    "🐋",
+    "⚔️",
+    "👑"
+  ],
+  "triviaFact": "Drew over 8.6 million theater admissions with its comedic quest to retrieve the Joseon imperial seal from a whale.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/The_Pirates_(2014_film)",
+    "https://www.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20139164"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "levelNumber": 4,
+  "titleId": "dong-yi-2010",
+  "originalTitle": "Dong Yi",
+  "difficulty": "Easy",
+  "emojis": [
+    "👑",
+    "🎶",
+    "💧",
+    "📜"
+  ],
+  "triviaFact": "Han Hyo-joo won the Best Actress award at the 47th Baeksang Arts Awards for her portrayal of Suk-bin Choe.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Dong_Yi_(TV_series)",
+    "https://www.chosun.com/site/data/html_dir/2010/10/13/2010101300325.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "Y",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

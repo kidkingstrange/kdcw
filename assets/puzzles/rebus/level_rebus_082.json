@@ -1,0 +1,72 @@
+{
+  "levelNumber": 82,
+  "titleId": "start-up-2020",
+  "originalTitle": "Start-Up",
+  "difficulty": "Medium",
+  "emojis": [
+    "💻",
+    "🚀",
+    "🥪",
+    "✉️"
+  ],
+  "triviaFact": "Kim Seon-ho's charismatic role as Han Ji-pyeong sparked an unprecedented worldwide 'Second Lead Syndrome'.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Start-Up_(South_Korean_TV_series)",
+    "https://en.yna.co.kr/view/AEN20201207002000315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "-",
+          "isPunctuation": true,
+          "userChar": "-",
+          "isLocked": true
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

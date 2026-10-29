@@ -1,0 +1,78 @@
+{
+  "levelNumber": 97,
+  "titleId": "happiness-2021",
+  "originalTitle": "Happiness",
+  "difficulty": "Medium",
+  "emojis": [
+    "🏢",
+    "💊",
+    "🧟",
+    "🩸"
+  ],
+  "triviaFact": "Park Hyung-sik made his highly anticipated post-military television comeback alongside Han Hyo-joo.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Happiness_(South_Korean_TV_series)",
+    "https://en.yna.co.kr/view/AEN20211212001500315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

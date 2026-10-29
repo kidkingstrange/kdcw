@@ -1,0 +1,3847 @@
+{
+  "totalLevels": 400,
+  "crosswordLevelsCount": 200,
+  "rebusLevelsCount": 200,
+  "crosswordLevels": [
+    {
+      "levelNumber": 1,
+      "title": "Secret Garden",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_001.json"
+    },
+    {
+      "levelNumber": 2,
+      "title": "My Girlfriend is a Gumiho",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_002.json"
+    },
+    {
+      "levelNumber": 3,
+      "title": "Sungkyunkwan Scandal",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_003.json"
+    },
+    {
+      "levelNumber": 4,
+      "title": "Dong Yi",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_004.json"
+    },
+    {
+      "levelNumber": 5,
+      "title": "Athena: Goddess of War",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_005.json"
+    },
+    {
+      "levelNumber": 6,
+      "title": "City Hunter",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_006.json"
+    },
+    {
+      "levelNumber": 7,
+      "title": "Dream High",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_007.json"
+    },
+    {
+      "levelNumber": 8,
+      "title": "Protect the Boss",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_008.json"
+    },
+    {
+      "levelNumber": 9,
+      "title": "Deep Rooted Tree",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_009.json"
+    },
+    {
+      "levelNumber": 10,
+      "title": "The Princess' Man",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_010.json"
+    },
+    {
+      "levelNumber": 11,
+      "title": "The Moon Embracing the Sun",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_011.json"
+    },
+    {
+      "levelNumber": 12,
+      "title": "Reply 1997",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_012.json"
+    },
+    {
+      "levelNumber": 13,
+      "title": "Rooftop Prince",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_013.json"
+    },
+    {
+      "levelNumber": 14,
+      "title": "Bridal Mask",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_014.json"
+    },
+    {
+      "levelNumber": 15,
+      "title": "School 2013",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_015.json"
+    },
+    {
+      "levelNumber": 16,
+      "title": "The Innocent Man",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_016.json"
+    },
+    {
+      "levelNumber": 17,
+      "title": "Queen In-hyun's Man",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_017.json"
+    },
+    {
+      "levelNumber": 18,
+      "title": "My Love from the Star",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_018.json"
+    },
+    {
+      "levelNumber": 19,
+      "title": "The Heirs",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_019.json"
+    },
+    {
+      "levelNumber": 20,
+      "title": "The Master's Sun",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_020.json"
+    },
+    {
+      "levelNumber": 21,
+      "title": "I Can Hear Your Voice",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_021.json"
+    },
+    {
+      "levelNumber": 22,
+      "title": "Reply 1994",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_022.json"
+    },
+    {
+      "levelNumber": 23,
+      "title": "Good Doctor",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_023.json"
+    },
+    {
+      "levelNumber": 24,
+      "title": "Gu Family Book",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_024.json"
+    },
+    {
+      "levelNumber": 25,
+      "title": "Empress Ki",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_025.json"
+    },
+    {
+      "levelNumber": 26,
+      "title": "Misaeng: Incomplete Life",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_026.json"
+    },
+    {
+      "levelNumber": 27,
+      "title": "Pinocchio",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_027.json"
+    },
+    {
+      "levelNumber": 28,
+      "title": "Healer",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_028.json"
+    },
+    {
+      "levelNumber": 29,
+      "title": "It's Okay, That's Love",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_029.json"
+    },
+    {
+      "levelNumber": 30,
+      "title": "Bad Guys",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_030.json"
+    },
+    {
+      "levelNumber": 31,
+      "title": "Doctor Stranger",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_031.json"
+    },
+    {
+      "levelNumber": 32,
+      "title": "The Pirates",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_032.json"
+    },
+    {
+      "levelNumber": 33,
+      "title": "Reply 1988",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_033.json"
+    },
+    {
+      "levelNumber": 34,
+      "title": "Kill Me, Heal Me",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_034.json"
+    },
+    {
+      "levelNumber": 35,
+      "title": "She Was Pretty",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_035.json"
+    },
+    {
+      "levelNumber": 36,
+      "title": "Oh My Ghost",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_036.json"
+    },
+    {
+      "levelNumber": 37,
+      "title": "Six Flying Dragons",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_037.json"
+    },
+    {
+      "levelNumber": 38,
+      "title": "Oh My Venus",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_038.json"
+    },
+    {
+      "levelNumber": 39,
+      "title": "The Producers",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_039.json"
+    },
+    {
+      "levelNumber": 40,
+      "title": "Descendants of the Sun",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_040.json"
+    },
+    {
+      "levelNumber": 41,
+      "title": "Guardian: The Lonely and Great God",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_041.json"
+    },
+    {
+      "levelNumber": 42,
+      "title": "Signal",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_042.json"
+    },
+    {
+      "levelNumber": 43,
+      "title": "Weightlifting Fairy Kim Bok-joo",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_043.json"
+    },
+    {
+      "levelNumber": 44,
+      "title": "Moon Lovers: Scarlet Heart Ryeo",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_044.json"
+    },
+    {
+      "levelNumber": 45,
+      "title": "W: Two Worlds",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_045.json"
+    },
+    {
+      "levelNumber": 46,
+      "title": "Dr. Romantic",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_046.json"
+    },
+    {
+      "levelNumber": 47,
+      "title": "The K2",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_047.json"
+    },
+    {
+      "levelNumber": 48,
+      "title": "Love in the Moonlight",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_048.json"
+    },
+    {
+      "levelNumber": 49,
+      "title": "Strong Girl Bong-soon",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_049.json"
+    },
+    {
+      "levelNumber": 50,
+      "title": "Fight for My Way",
+      "difficulty": "Easy",
+      "file": "assets/puzzles/crossword/level_crossword_050.json"
+    },
+    {
+      "levelNumber": 51,
+      "title": "Stranger",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_051.json"
+    },
+    {
+      "levelNumber": 52,
+      "title": "Prison Playbook",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_052.json"
+    },
+    {
+      "levelNumber": 53,
+      "title": "While You Were Sleeping",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_053.json"
+    },
+    {
+      "levelNumber": 54,
+      "title": "Because This Is My First Life",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_054.json"
+    },
+    {
+      "levelNumber": 55,
+      "title": "A Korean Odyssey",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_055.json"
+    },
+    {
+      "levelNumber": 56,
+      "title": "Voice",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_056.json"
+    },
+    {
+      "levelNumber": 57,
+      "title": "Tunnel",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_057.json"
+    },
+    {
+      "levelNumber": 58,
+      "title": "Suspicious Partner",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_058.json"
+    },
+    {
+      "levelNumber": 59,
+      "title": "Mr. Sunshine",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_059.json"
+    },
+    {
+      "levelNumber": 60,
+      "title": "My Mister",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_060.json"
+    },
+    {
+      "levelNumber": 61,
+      "title": "What's Wrong with Secretary Kim",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_061.json"
+    },
+    {
+      "levelNumber": 62,
+      "title": "Sky Castle",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_062.json"
+    },
+    {
+      "levelNumber": 63,
+      "title": "Memories of the Alhambra",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_063.json"
+    },
+    {
+      "levelNumber": 64,
+      "title": "100 Days My Prince",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_064.json"
+    },
+    {
+      "levelNumber": 65,
+      "title": "Something in the Rain",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_065.json"
+    },
+    {
+      "levelNumber": 66,
+      "title": "Crash Landing on You",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_066.json"
+    },
+    {
+      "levelNumber": 67,
+      "title": "Hotel Del Luna",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_067.json"
+    },
+    {
+      "levelNumber": 68,
+      "title": "When the Camellia Blooms",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_068.json"
+    },
+    {
+      "levelNumber": 69,
+      "title": "Extraordinary You",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_069.json"
+    },
+    {
+      "levelNumber": 70,
+      "title": "Kingdom",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_070.json"
+    },
+    {
+      "levelNumber": 71,
+      "title": "The Fiery Priest",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_071.json"
+    },
+    {
+      "levelNumber": 72,
+      "title": "Vagabond",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_072.json"
+    },
+    {
+      "levelNumber": 73,
+      "title": "Arthdal Chronicles",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_073.json"
+    },
+    {
+      "levelNumber": 74,
+      "title": "Search: WWW",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_074.json"
+    },
+    {
+      "levelNumber": 75,
+      "title": "Romance Is a Bonus Book",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_075.json"
+    },
+    {
+      "levelNumber": 76,
+      "title": "The Crowned Clown",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_076.json"
+    },
+    {
+      "levelNumber": 77,
+      "title": "Her Private Life",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_077.json"
+    },
+    {
+      "levelNumber": 78,
+      "title": "Itaewon Class",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_078.json"
+    },
+    {
+      "levelNumber": 79,
+      "title": "The World of the Married",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_079.json"
+    },
+    {
+      "levelNumber": 80,
+      "title": "Hospital Playlist",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_080.json"
+    },
+    {
+      "levelNumber": 81,
+      "title": "It's Okay to Not Be Okay",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_081.json"
+    },
+    {
+      "levelNumber": 82,
+      "title": "Start-Up",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_082.json"
+    },
+    {
+      "levelNumber": 83,
+      "title": "Flower of Evil",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_083.json"
+    },
+    {
+      "levelNumber": 84,
+      "title": "Sweet Home",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_084.json"
+    },
+    {
+      "levelNumber": 85,
+      "title": "The Penthouse: War in Life",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_085.json"
+    },
+    {
+      "levelNumber": 86,
+      "title": "True Beauty",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_086.json"
+    },
+    {
+      "levelNumber": 87,
+      "title": "18 Again",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_087.json"
+    },
+    {
+      "levelNumber": 88,
+      "title": "The King: Eternal Monarch",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_088.json"
+    },
+    {
+      "levelNumber": 89,
+      "title": "Extracurricular",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_089.json"
+    },
+    {
+      "levelNumber": 90,
+      "title": "Squid Game",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_090.json"
+    },
+    {
+      "levelNumber": 91,
+      "title": "Vincenzo",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_091.json"
+    },
+    {
+      "levelNumber": 92,
+      "title": "Hometown Cha-Cha-Cha",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_092.json"
+    },
+    {
+      "levelNumber": 93,
+      "title": "Taxi Driver",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_093.json"
+    },
+    {
+      "levelNumber": 94,
+      "title": "The Red Sleeve",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_094.json"
+    },
+    {
+      "levelNumber": 95,
+      "title": "D.P.",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_095.json"
+    },
+    {
+      "levelNumber": 96,
+      "title": "Beyond Evil",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_096.json"
+    },
+    {
+      "levelNumber": 97,
+      "title": "Happiness",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_097.json"
+    },
+    {
+      "levelNumber": 98,
+      "title": "Hellbound",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_098.json"
+    },
+    {
+      "levelNumber": 99,
+      "title": "My Name",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_099.json"
+    },
+    {
+      "levelNumber": 100,
+      "title": "Youth of May",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_100.json"
+    },
+    {
+      "levelNumber": 101,
+      "title": "Move to Heaven",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_101.json"
+    },
+    {
+      "levelNumber": 102,
+      "title": "Extraordinary Attorney Woo",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_102.json"
+    },
+    {
+      "levelNumber": 103,
+      "title": "Twenty-Five Twenty-One",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_103.json"
+    },
+    {
+      "levelNumber": 104,
+      "title": "Business Proposal",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_104.json"
+    },
+    {
+      "levelNumber": 105,
+      "title": "Alchemy of Souls",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_105.json"
+    },
+    {
+      "levelNumber": 106,
+      "title": "All of Us Are Dead",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_106.json"
+    },
+    {
+      "levelNumber": 107,
+      "title": "Reborn Rich",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_107.json"
+    },
+    {
+      "levelNumber": 108,
+      "title": "Our Blues",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_108.json"
+    },
+    {
+      "levelNumber": 109,
+      "title": "Little Women",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_109.json"
+    },
+    {
+      "levelNumber": 110,
+      "title": "Weak Hero Class 1",
+      "difficulty": "Medium",
+      "file": "assets/puzzles/crossword/level_crossword_110.json"
+    },
+    {
+      "levelNumber": 111,
+      "title": "Under the Queen's Umbrella",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_111.json"
+    },
+    {
+      "levelNumber": 112,
+      "title": "Big Mouth",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_112.json"
+    },
+    {
+      "levelNumber": 113,
+      "title": "Semantic Error",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_113.json"
+    },
+    {
+      "levelNumber": 114,
+      "title": "Through the Darkness",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_114.json"
+    },
+    {
+      "levelNumber": 115,
+      "title": "The Glory",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_115.json"
+    },
+    {
+      "levelNumber": 116,
+      "title": "Moving",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_116.json"
+    },
+    {
+      "levelNumber": 117,
+      "title": "King the Land",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_117.json"
+    },
+    {
+      "levelNumber": 118,
+      "title": "Crash Course in Romance",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_118.json"
+    },
+    {
+      "levelNumber": 119,
+      "title": "My Demon",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_119.json"
+    },
+    {
+      "levelNumber": 120,
+      "title": "Castaway Diva",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_120.json"
+    },
+    {
+      "levelNumber": 121,
+      "title": "Twinkling Watermelon",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_121.json"
+    },
+    {
+      "levelNumber": 122,
+      "title": "Daily Dose of Sunshine",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_122.json"
+    },
+    {
+      "levelNumber": 123,
+      "title": "The Worst of Evil",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_123.json"
+    },
+    {
+      "levelNumber": 124,
+      "title": "Bloodhounds",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_124.json"
+    },
+    {
+      "levelNumber": 125,
+      "title": "Death's Game",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_125.json"
+    },
+    {
+      "levelNumber": 126,
+      "title": "The Good Bad Mother",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_126.json"
+    },
+    {
+      "levelNumber": 127,
+      "title": "Doctor Cha",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_127.json"
+    },
+    {
+      "levelNumber": 128,
+      "title": "My Dearest",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_128.json"
+    },
+    {
+      "levelNumber": 129,
+      "title": "Mask Girl",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_129.json"
+    },
+    {
+      "levelNumber": 130,
+      "title": "Celebrity",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_130.json"
+    },
+    {
+      "levelNumber": 131,
+      "title": "Queen of Tears",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_131.json"
+    },
+    {
+      "levelNumber": 132,
+      "title": "Lovely Runner",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_132.json"
+    },
+    {
+      "levelNumber": 133,
+      "title": "Marry My Husband",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_133.json"
+    },
+    {
+      "levelNumber": 134,
+      "title": "A Shop for Killers",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_134.json"
+    },
+    {
+      "levelNumber": 135,
+      "title": "The Atypical Family",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_135.json"
+    },
+    {
+      "levelNumber": 136,
+      "title": "Miss Night and Day",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_136.json"
+    },
+    {
+      "levelNumber": 137,
+      "title": "Good Partner",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_137.json"
+    },
+    {
+      "levelNumber": 138,
+      "title": "Jeongnyeon: The Star Is Born",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_138.json"
+    },
+    {
+      "levelNumber": 139,
+      "title": "Love Next Door",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_139.json"
+    },
+    {
+      "levelNumber": 140,
+      "title": "The Trunk",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_140.json"
+    },
+    {
+      "levelNumber": 141,
+      "title": "Connection",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_141.json"
+    },
+    {
+      "levelNumber": 142,
+      "title": "Flex X Cop",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_142.json"
+    },
+    {
+      "levelNumber": 143,
+      "title": "Doctor Slump",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_143.json"
+    },
+    {
+      "levelNumber": 144,
+      "title": "Squid Game 2",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_144.json"
+    },
+    {
+      "levelNumber": 145,
+      "title": "When the Stars Gossip",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_145.json"
+    },
+    {
+      "levelNumber": 146,
+      "title": "All of Us Are Dead Season 2",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_146.json"
+    },
+    {
+      "levelNumber": 147,
+      "title": "Signal Season 2",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_147.json"
+    },
+    {
+      "levelNumber": 148,
+      "title": "Chicago Typewriter",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_148.json"
+    },
+    {
+      "levelNumber": 149,
+      "title": "Rain or Shine",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_149.json"
+    },
+    {
+      "levelNumber": 150,
+      "title": "Live",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_150.json"
+    },
+    {
+      "levelNumber": 151,
+      "title": "Life on Mars",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_151.json"
+    },
+    {
+      "levelNumber": 152,
+      "title": "Encounter",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_152.json"
+    },
+    {
+      "levelNumber": 153,
+      "title": "The Beauty Inside",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_153.json"
+    },
+    {
+      "levelNumber": 154,
+      "title": "Be Melodramatic",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_154.json"
+    },
+    {
+      "levelNumber": 155,
+      "title": "One the Woman",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_155.json"
+    },
+    {
+      "levelNumber": 156,
+      "title": "The King's Affection",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_156.json"
+    },
+    {
+      "levelNumber": 157,
+      "title": "Forecasting Love and Weather",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_157.json"
+    },
+    {
+      "levelNumber": 158,
+      "title": "Military Prosecutor Doberman",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_158.json"
+    },
+    {
+      "levelNumber": 159,
+      "title": "Destined with You",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_159.json"
+    },
+    {
+      "levelNumber": 160,
+      "title": "Welcome to Samdal-ri",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_160.json"
+    },
+    {
+      "levelNumber": 161,
+      "title": "The Midnight Romance in Hagwon",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_161.json"
+    },
+    {
+      "levelNumber": 162,
+      "title": "No Gain No Love",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_162.json"
+    },
+    {
+      "levelNumber": 163,
+      "title": "Black Out",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_163.json"
+    },
+    {
+      "levelNumber": 164,
+      "title": "Secret Garden",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_164.json"
+    },
+    {
+      "levelNumber": 165,
+      "title": "My Girlfriend is a Gumiho",
+      "difficulty": "Hard",
+      "file": "assets/puzzles/crossword/level_crossword_165.json"
+    },
+    {
+      "levelNumber": 166,
+      "title": "Sungkyunkwan Scandal",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_166.json"
+    },
+    {
+      "levelNumber": 167,
+      "title": "Dong Yi",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_167.json"
+    },
+    {
+      "levelNumber": 168,
+      "title": "Athena: Goddess of War",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_168.json"
+    },
+    {
+      "levelNumber": 169,
+      "title": "City Hunter",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_169.json"
+    },
+    {
+      "levelNumber": 170,
+      "title": "Dream High",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_170.json"
+    },
+    {
+      "levelNumber": 171,
+      "title": "Protect the Boss",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_171.json"
+    },
+    {
+      "levelNumber": 172,
+      "title": "Deep Rooted Tree",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_172.json"
+    },
+    {
+      "levelNumber": 173,
+      "title": "The Princess' Man",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_173.json"
+    },
+    {
+      "levelNumber": 174,
+      "title": "The Moon Embracing the Sun",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_174.json"
+    },
+    {
+      "levelNumber": 175,
+      "title": "Reply 1997",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_175.json"
+    },
+    {
+      "levelNumber": 176,
+      "title": "Rooftop Prince",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_176.json"
+    },
+    {
+      "levelNumber": 177,
+      "title": "Bridal Mask",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_177.json"
+    },
+    {
+      "levelNumber": 178,
+      "title": "School 2013",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_178.json"
+    },
+    {
+      "levelNumber": 179,
+      "title": "The Innocent Man",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_179.json"
+    },
+    {
+      "levelNumber": 180,
+      "title": "Queen In-hyun's Man",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_180.json"
+    },
+    {
+      "levelNumber": 181,
+      "title": "My Love from the Star",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_181.json"
+    },
+    {
+      "levelNumber": 182,
+      "title": "The Heirs",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_182.json"
+    },
+    {
+      "levelNumber": 183,
+      "title": "The Master's Sun",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_183.json"
+    },
+    {
+      "levelNumber": 184,
+      "title": "I Can Hear Your Voice",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_184.json"
+    },
+    {
+      "levelNumber": 185,
+      "title": "Reply 1994",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_185.json"
+    },
+    {
+      "levelNumber": 186,
+      "title": "Good Doctor",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_186.json"
+    },
+    {
+      "levelNumber": 187,
+      "title": "Gu Family Book",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_187.json"
+    },
+    {
+      "levelNumber": 188,
+      "title": "Empress Ki",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_188.json"
+    },
+    {
+      "levelNumber": 189,
+      "title": "Misaeng: Incomplete Life",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_189.json"
+    },
+    {
+      "levelNumber": 190,
+      "title": "Pinocchio",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_190.json"
+    },
+    {
+      "levelNumber": 191,
+      "title": "Healer",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_191.json"
+    },
+    {
+      "levelNumber": 192,
+      "title": "It's Okay, That's Love",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_192.json"
+    },
+    {
+      "levelNumber": 193,
+      "title": "Bad Guys",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_193.json"
+    },
+    {
+      "levelNumber": 194,
+      "title": "Doctor Stranger",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_194.json"
+    },
+    {
+      "levelNumber": 195,
+      "title": "The Pirates",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_195.json"
+    },
+    {
+      "levelNumber": 196,
+      "title": "Reply 1988",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_196.json"
+    },
+    {
+      "levelNumber": 197,
+      "title": "Kill Me, Heal Me",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_197.json"
+    },
+    {
+      "levelNumber": 198,
+      "title": "She Was Pretty",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_198.json"
+    },
+    {
+      "levelNumber": 199,
+      "title": "Oh My Ghost",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_199.json"
+    },
+    {
+      "levelNumber": 200,
+      "title": "Six Flying Dragons",
+      "difficulty": "Expert",
+      "file": "assets/puzzles/crossword/level_crossword_200.json"
+    }
+  ],
+  "rebusLevels": [
+    {
+      "levelNumber": 1,
+      "titleId": "secret-garden-2010",
+      "originalTitle": "Secret Garden",
+      "difficulty": "Easy",
+      "emojis": [
+        "✨",
+        "🥋",
+        "☕",
+        "🔄"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_001.json"
+    },
+    {
+      "levelNumber": 2,
+      "titleId": "my-girlfriend-is-a-gumiho-2010",
+      "originalTitle": "My Girlfriend is a Gumiho",
+      "difficulty": "Easy",
+      "emojis": [
+        "🦊",
+        "🥩",
+        "✨",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_002.json"
+    },
+    {
+      "levelNumber": 3,
+      "titleId": "sungkyunkwan-scandal-2010",
+      "originalTitle": "Sungkyunkwan Scandal",
+      "difficulty": "Easy",
+      "emojis": [
+        "📜",
+        "🏹",
+        "🧑‍🎓",
+        "🤫"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_003.json"
+    },
+    {
+      "levelNumber": 4,
+      "titleId": "dong-yi-2010",
+      "originalTitle": "Dong Yi",
+      "difficulty": "Easy",
+      "emojis": [
+        "👑",
+        "🎶",
+        "💧",
+        "📜"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_004.json"
+    },
+    {
+      "levelNumber": 5,
+      "titleId": "athena-goddess-of-war-2010",
+      "originalTitle": "Athena: Goddess of War",
+      "difficulty": "Easy",
+      "emojis": [
+        "🛡️",
+        "🔫",
+        "💥",
+        "🌍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_005.json"
+    },
+    {
+      "levelNumber": 6,
+      "titleId": "city-hunter-2011",
+      "originalTitle": "City Hunter",
+      "difficulty": "Easy",
+      "emojis": [
+        "🏙️",
+        "🎯",
+        "🔫",
+        "🛡️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_006.json"
+    },
+    {
+      "levelNumber": 7,
+      "titleId": "dream-high-2011",
+      "originalTitle": "Dream High",
+      "difficulty": "Easy",
+      "emojis": [
+        "🎤",
+        "🎶",
+        "⭐",
+        "🏫"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_007.json"
+    },
+    {
+      "levelNumber": 8,
+      "titleId": "protect-the-boss-2011",
+      "originalTitle": "Protect the Boss",
+      "difficulty": "Easy",
+      "emojis": [
+        "💼",
+        "👔",
+        "🥊",
+        "☕"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_008.json"
+    },
+    {
+      "levelNumber": 9,
+      "titleId": "tree-with-deep-roots-2011",
+      "originalTitle": "Deep Rooted Tree",
+      "difficulty": "Easy",
+      "emojis": [
+        "📜",
+        "👑",
+        "🌳",
+        "🔤"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_009.json"
+    },
+    {
+      "levelNumber": 10,
+      "titleId": "the-princess-man-2011",
+      "originalTitle": "The Princess' Man",
+      "difficulty": "Easy",
+      "emojis": [
+        "🏹",
+        "👑",
+        "💔",
+        "🐎"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_010.json"
+    },
+    {
+      "levelNumber": 11,
+      "titleId": "the-moon-embracing-the-sun-2012",
+      "originalTitle": "The Moon Embracing the Sun",
+      "difficulty": "Easy",
+      "emojis": [
+        "🌙",
+        "☀️",
+        "👑",
+        "🔮"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_011.json"
+    },
+    {
+      "levelNumber": 12,
+      "titleId": "reply-1997-2012",
+      "originalTitle": "Reply 1997",
+      "difficulty": "Easy",
+      "emojis": [
+        "📼",
+        "📟",
+        "📻",
+        "1️⃣9️⃣9️⃣7️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_012.json"
+    },
+    {
+      "levelNumber": 13,
+      "titleId": "rooftop-prince-2012",
+      "originalTitle": "Rooftop Prince",
+      "difficulty": "Easy",
+      "emojis": [
+        "👑",
+        "🏠",
+        "⏰",
+        "🍳"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_013.json"
+    },
+    {
+      "levelNumber": 14,
+      "titleId": "bridal-mask-2012",
+      "originalTitle": "Bridal Mask",
+      "difficulty": "Easy",
+      "emojis": [
+        "🎭",
+        "⚔️",
+        "🐎",
+        "🛡️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_014.json"
+    },
+    {
+      "levelNumber": 15,
+      "titleId": "school-2013-2012",
+      "originalTitle": "School 2013",
+      "difficulty": "Easy",
+      "emojis": [
+        "🏫",
+        "🎒",
+        "👬",
+        "📚"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_015.json"
+    },
+    {
+      "levelNumber": 16,
+      "titleId": "the-innocent-man-2012",
+      "originalTitle": "The Innocent Man",
+      "difficulty": "Easy",
+      "emojis": [
+        "💔",
+        "💊",
+        "🚗",
+        "❄️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_016.json"
+    },
+    {
+      "levelNumber": 17,
+      "titleId": "queen-in-hyuns-man-2012",
+      "originalTitle": "Queen In-hyun's Man",
+      "difficulty": "Easy",
+      "emojis": [
+        "📜",
+        "⏳",
+        "📱",
+        "💋"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_017.json"
+    },
+    {
+      "levelNumber": 18,
+      "titleId": "my-love-from-the-star-2013",
+      "originalTitle": "My Love from the Star",
+      "difficulty": "Easy",
+      "emojis": [
+        "🛸",
+        "⭐",
+        "🍗",
+        "🍺",
+        "⏳"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_018.json"
+    },
+    {
+      "levelNumber": 19,
+      "titleId": "the-heirs-2013",
+      "originalTitle": "The Heirs",
+      "difficulty": "Easy",
+      "emojis": [
+        "👑",
+        "🏫",
+        "🏄",
+        "💎"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_019.json"
+    },
+    {
+      "levelNumber": 20,
+      "titleId": "masters-sun-2013",
+      "originalTitle": "The Master's Sun",
+      "difficulty": "Easy",
+      "emojis": [
+        "👻",
+        "☀️",
+        "🏬",
+        "🤝"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_020.json"
+    },
+    {
+      "levelNumber": 21,
+      "titleId": "i-can-hear-your-voice-2013",
+      "originalTitle": "I Can Hear Your Voice",
+      "difficulty": "Easy",
+      "emojis": [
+        "👂",
+        "🧠",
+        "⚖️",
+        "🦈"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_021.json"
+    },
+    {
+      "levelNumber": 22,
+      "titleId": "reply-1994-2013",
+      "originalTitle": "Reply 1994",
+      "difficulty": "Easy",
+      "emojis": [
+        "⚾",
+        "🏀",
+        "🏠",
+        "1️⃣9️⃣9️⃣4️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_022.json"
+    },
+    {
+      "levelNumber": 23,
+      "titleId": "good-doctor-2013",
+      "originalTitle": "Good Doctor",
+      "difficulty": "Easy",
+      "emojis": [
+        "🩺",
+        "🏥",
+        "🧠",
+        "👶"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_023.json"
+    },
+    {
+      "levelNumber": 24,
+      "titleId": "gu-family-book-2013",
+      "originalTitle": "Gu Family Book",
+      "difficulty": "Easy",
+      "emojis": [
+        "🐺",
+        "📖",
+        "🌙",
+        "⚔️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_024.json"
+    },
+    {
+      "levelNumber": 25,
+      "titleId": "empress-ki-2013",
+      "originalTitle": "Empress Ki",
+      "difficulty": "Easy",
+      "emojis": [
+        "👑",
+        "🦅",
+        "⚔️",
+        "💍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_025.json"
+    },
+    {
+      "levelNumber": 26,
+      "titleId": "misaeng-incomplete-life-2014",
+      "originalTitle": "Misaeng: Incomplete Life",
+      "difficulty": "Easy",
+      "emojis": [
+        "👔",
+        "🏢",
+        "⚪",
+        "⚫",
+        "💼"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_026.json"
+    },
+    {
+      "levelNumber": 27,
+      "titleId": "pinocchio-2014",
+      "originalTitle": "Pinocchio",
+      "difficulty": "Easy",
+      "emojis": [
+        "🤥",
+        "📺",
+        "🎤",
+        "🍞"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_027.json"
+    },
+    {
+      "levelNumber": 28,
+      "titleId": "healer-2014",
+      "originalTitle": "Healer",
+      "difficulty": "Easy",
+      "emojis": [
+        "🏃",
+        "🕶️",
+        "📻",
+        "🌃"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_028.json"
+    },
+    {
+      "levelNumber": 29,
+      "titleId": "its-okay-thats-love-2014",
+      "originalTitle": "It's Okay, That's Love",
+      "difficulty": "Easy",
+      "emojis": [
+        "🧠",
+        "🛋️",
+        "✍️",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_029.json"
+    },
+    {
+      "levelNumber": 30,
+      "titleId": "bad-guys-2014",
+      "originalTitle": "Bad Guys",
+      "difficulty": "Easy",
+      "emojis": [
+        "⛓️",
+        "👊",
+        "🚔",
+        "🐺"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_030.json"
+    },
+    {
+      "levelNumber": 31,
+      "titleId": "doctor-stranger-2014",
+      "originalTitle": "Doctor Stranger",
+      "difficulty": "Easy",
+      "emojis": [
+        "🩺",
+        "🇰🇵",
+        "🇰🇷",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_031.json"
+    },
+    {
+      "levelNumber": 32,
+      "titleId": "you-who-came-from-the-stars-movie-2014",
+      "originalTitle": "The Pirates",
+      "difficulty": "Easy",
+      "emojis": [
+        "🏴‍☠️",
+        "🐋",
+        "⚔️",
+        "👑"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_032.json"
+    },
+    {
+      "levelNumber": 33,
+      "titleId": "reply-1988-2015",
+      "originalTitle": "Reply 1988",
+      "difficulty": "Easy",
+      "emojis": [
+        "🏘️",
+        "⚪",
+        "⚫",
+        "📻",
+        "1️⃣9️⃣8️⃣8️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_033.json"
+    },
+    {
+      "levelNumber": 34,
+      "titleId": "kill-me-heal-me-2015",
+      "originalTitle": "Kill Me, Heal Me",
+      "difficulty": "Easy",
+      "emojis": [
+        "🪞",
+        "🎀",
+        "💄",
+        "💣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_034.json"
+    },
+    {
+      "levelNumber": 35,
+      "titleId": "she-was-pretty-2015",
+      "originalTitle": "She Was Pretty",
+      "difficulty": "Easy",
+      "emojis": [
+        "👠",
+        "📰",
+        "🧩",
+        "🧅"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_035.json"
+    },
+    {
+      "levelNumber": 36,
+      "titleId": "oh-my-ghost-2015",
+      "originalTitle": "Oh My Ghost",
+      "difficulty": "Easy",
+      "emojis": [
+        "👻",
+        "🍳",
+        "🔪",
+        "🍲"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_036.json"
+    },
+    {
+      "levelNumber": 37,
+      "titleId": "six-flying-dragons-2015",
+      "originalTitle": "Six Flying Dragons",
+      "difficulty": "Easy",
+      "emojis": [
+        "🐉",
+        "⚔️",
+        "👑",
+        "📜"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_037.json"
+    },
+    {
+      "levelNumber": 38,
+      "titleId": "oh-my-venus-2015",
+      "originalTitle": "Oh My Venus",
+      "difficulty": "Easy",
+      "emojis": [
+        "🏋️",
+        "🥗",
+        "⚖️",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_038.json"
+    },
+    {
+      "levelNumber": 39,
+      "titleId": "the-producers-2015",
+      "originalTitle": "The Producers",
+      "difficulty": "Easy",
+      "emojis": [
+        "🎬",
+        "🎤",
+        "📺",
+        "☂️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_039.json"
+    },
+    {
+      "levelNumber": 40,
+      "titleId": "descendants-of-the-sun-2016",
+      "originalTitle": "Descendants of the Sun",
+      "difficulty": "Easy",
+      "emojis": [
+        "🪖",
+        "🩺",
+        "🍷",
+        "🚁"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_040.json"
+    },
+    {
+      "levelNumber": 41,
+      "titleId": "guardian-the-lonely-and-great-god-2016",
+      "originalTitle": "Guardian: The Lonely and Great God",
+      "difficulty": "Easy",
+      "emojis": [
+        "🗡️",
+        "🕯️",
+        "🧣",
+        "🍁",
+        "🎩"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_041.json"
+    },
+    {
+      "levelNumber": 42,
+      "titleId": "signal-2016",
+      "originalTitle": "Signal",
+      "difficulty": "Easy",
+      "emojis": [
+        "📻",
+        "⏰",
+        "🚔",
+        "🔍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_042.json"
+    },
+    {
+      "levelNumber": 43,
+      "titleId": "weightlifting-fairy-kim-bok-joo-2016",
+      "originalTitle": "Weightlifting Fairy Kim Bok-joo",
+      "difficulty": "Easy",
+      "emojis": [
+        "🏋️‍♀️",
+        "🏊‍♂️",
+        "🍗",
+        "🌭"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_043.json"
+    },
+    {
+      "levelNumber": 44,
+      "titleId": "moon-lovers-scarlet-heart-ryeo-2016",
+      "originalTitle": "Moon Lovers: Scarlet Heart Ryeo",
+      "difficulty": "Easy",
+      "emojis": [
+        "🌑",
+        "🐺",
+        "👑",
+        "🌧️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_044.json"
+    },
+    {
+      "levelNumber": 45,
+      "titleId": "w-two-worlds-2016",
+      "originalTitle": "W: Two Worlds",
+      "difficulty": "Easy",
+      "emojis": [
+        "💻",
+        "🔫",
+        "🎨",
+        "🔄"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_045.json"
+    },
+    {
+      "levelNumber": 46,
+      "titleId": "dr-romantic-2016",
+      "originalTitle": "Dr. Romantic",
+      "difficulty": "Easy",
+      "emojis": [
+        "🩺",
+        "🏥",
+        "💉",
+        "🌲"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_046.json"
+    },
+    {
+      "levelNumber": 47,
+      "titleId": "the-k2-2016",
+      "originalTitle": "The K2",
+      "difficulty": "Easy",
+      "emojis": [
+        "🛡️",
+        "🍜",
+        "💻",
+        "🕶️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_047.json"
+    },
+    {
+      "levelNumber": 48,
+      "titleId": "love-in-the-moonlight-2016",
+      "originalTitle": "Love in the Moonlight",
+      "difficulty": "Easy",
+      "emojis": [
+        "👑",
+        "🌙",
+        "🏮",
+        "📜"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_048.json"
+    },
+    {
+      "levelNumber": 49,
+      "titleId": "strong-girl-bong-soon-2017",
+      "originalTitle": "Strong Girl Bong-soon",
+      "difficulty": "Easy",
+      "emojis": [
+        "💪",
+        "🎮",
+        "🥜",
+        "🎀"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_049.json"
+    },
+    {
+      "levelNumber": 50,
+      "titleId": "fight-for-my-way-2017",
+      "originalTitle": "Fight for My Way",
+      "difficulty": "Easy",
+      "emojis": [
+        "🥊",
+        "🎤",
+        "🍻",
+        "🥋"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_050.json"
+    },
+    {
+      "levelNumber": 51,
+      "titleId": "stranger-2017",
+      "originalTitle": "Stranger",
+      "difficulty": "Medium",
+      "emojis": [
+        "🌲",
+        "⚖️",
+        "🧠",
+        "🔍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_051.json"
+    },
+    {
+      "levelNumber": 52,
+      "titleId": "prison-playbook-2017",
+      "originalTitle": "Prison Playbook",
+      "difficulty": "Medium",
+      "emojis": [
+        "⚾",
+        "⛓️",
+        "🚪",
+        "💊"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_052.json"
+    },
+    {
+      "levelNumber": 53,
+      "titleId": "while-you-were-sleeping-2017",
+      "originalTitle": "While You Were Sleeping",
+      "difficulty": "Medium",
+      "emojis": [
+        "😴",
+        "🔮",
+        "⚖️",
+        "🚓"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_053.json"
+    },
+    {
+      "levelNumber": 54,
+      "titleId": "because-this-is-my-first-life-2017",
+      "originalTitle": "Because This Is My First Life",
+      "difficulty": "Medium",
+      "emojis": [
+        "🏠",
+        "🐱",
+        "💍",
+        "📝"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_054.json"
+    },
+    {
+      "levelNumber": 55,
+      "titleId": "a-korean-odyssey-2017",
+      "originalTitle": "A Korean Odyssey",
+      "difficulty": "Medium",
+      "emojis": [
+        "🐒",
+        "🐂",
+        "📿",
+        "🔥"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_055.json"
+    },
+    {
+      "levelNumber": 56,
+      "titleId": "voice-2017",
+      "originalTitle": "Voice",
+      "difficulty": "Medium",
+      "emojis": [
+        "📞",
+        "👂",
+        "🚔",
+        "🔔"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_056.json"
+    },
+    {
+      "levelNumber": 57,
+      "titleId": "tunnel-2017",
+      "originalTitle": "Tunnel",
+      "difficulty": "Medium",
+      "emojis": [
+        "🚇",
+        "⏳",
+        "🚔",
+        "🔍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_057.json"
+    },
+    {
+      "levelNumber": 58,
+      "titleId": "suspicious-partner-2017",
+      "originalTitle": "Suspicious Partner",
+      "difficulty": "Medium",
+      "emojis": [
+        "⚖️",
+        "💼",
+        "🔪",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_058.json"
+    },
+    {
+      "levelNumber": 59,
+      "titleId": "mr-sunshine-2018",
+      "originalTitle": "Mr. Sunshine",
+      "difficulty": "Medium",
+      "emojis": [
+        "🇺🇸",
+        "🇰🇷",
+        "🔫",
+        "🎵",
+        "🏨"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_059.json"
+    },
+    {
+      "levelNumber": 60,
+      "titleId": "my-mister-2018",
+      "originalTitle": "My Mister",
+      "difficulty": "Medium",
+      "emojis": [
+        "🎧",
+        "🚇",
+        "☕",
+        "🏢"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_060.json"
+    },
+    {
+      "levelNumber": 61,
+      "titleId": "whats-wrong-with-secretary-kim-2018",
+      "originalTitle": "What's Wrong with Secretary Kim",
+      "difficulty": "Medium",
+      "emojis": [
+        "👔",
+        "💼",
+        "✨",
+        "🎀"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_061.json"
+    },
+    {
+      "levelNumber": 62,
+      "titleId": "sky-castle-2018",
+      "originalTitle": "Sky Castle",
+      "difficulty": "Medium",
+      "emojis": [
+        "🏰",
+        "📐",
+        "🩸",
+        "👩‍🏫"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_062.json"
+    },
+    {
+      "levelNumber": 63,
+      "titleId": "memories-of-the-alhambra-2018",
+      "originalTitle": "Memories of the Alhambra",
+      "difficulty": "Medium",
+      "emojis": [
+        "👓",
+        "⚔️",
+        "🎸",
+        "🏰"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_063.json"
+    },
+    {
+      "levelNumber": 64,
+      "titleId": "100-days-my-prince-2018",
+      "originalTitle": "100 Days My Prince",
+      "difficulty": "Medium",
+      "emojis": [
+        "👑",
+        "🌸",
+        "🌾",
+        "1️⃣0️⃣0️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_064.json"
+    },
+    {
+      "levelNumber": 65,
+      "titleId": "something-in-the-rain-2018",
+      "originalTitle": "Something in the Rain",
+      "difficulty": "Medium",
+      "emojis": [
+        "☂️",
+        "☕",
+        "🌧️",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_065.json"
+    },
+    {
+      "levelNumber": 66,
+      "titleId": "crash-landing-on-you-2019",
+      "originalTitle": "Crash Landing on You",
+      "difficulty": "Medium",
+      "emojis": [
+        "🪂",
+        "🇰🇵",
+        "🇰🇷",
+        "🍅",
+        "🎹"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_066.json"
+    },
+    {
+      "levelNumber": 67,
+      "titleId": "hotel-del-luna-2019",
+      "originalTitle": "Hotel Del Luna",
+      "difficulty": "Medium",
+      "emojis": [
+        "🏨",
+        "🌕",
+        "👻",
+        "🌳",
+        "👗"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_067.json"
+    },
+    {
+      "levelNumber": 68,
+      "titleId": "when-the-camellia-blooms-2019",
+      "originalTitle": "When the Camellia Blooms",
+      "difficulty": "Medium",
+      "emojis": [
+        "🌺",
+        "🍻",
+        "👮",
+        "🔍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_068.json"
+    },
+    {
+      "levelNumber": 69,
+      "titleId": "extraordinary-you-2019",
+      "originalTitle": "Extraordinary You",
+      "difficulty": "Medium",
+      "emojis": [
+        "📖",
+        "⌚",
+        "🎾",
+        "🏫"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_069.json"
+    },
+    {
+      "levelNumber": 70,
+      "titleId": "kingdom-2019",
+      "originalTitle": "Kingdom",
+      "difficulty": "Medium",
+      "emojis": [
+        "🧟",
+        "👑",
+        "🌿",
+        "⚔️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_070.json"
+    },
+    {
+      "levelNumber": 71,
+      "titleId": "the-fiery-priest-2019",
+      "originalTitle": "The Fiery Priest",
+      "difficulty": "Medium",
+      "emojis": [
+        "✝️",
+        "🥊",
+        "🕶️",
+        "🔥"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_071.json"
+    },
+    {
+      "levelNumber": 72,
+      "titleId": "vagabond-2019",
+      "originalTitle": "Vagabond",
+      "difficulty": "Medium",
+      "emojis": [
+        "✈️",
+        "💥",
+        "🔫",
+        "🇲🇦"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_072.json"
+    },
+    {
+      "levelNumber": 73,
+      "titleId": "arthdal-chronicles-2019",
+      "originalTitle": "Arthdal Chronicles",
+      "difficulty": "Medium",
+      "emojis": [
+        "🐎",
+        "⚔️",
+        "🟣",
+        "🏹"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_073.json"
+    },
+    {
+      "levelNumber": 74,
+      "titleId": "search-www-2019",
+      "originalTitle": "Search: WWW",
+      "difficulty": "Medium",
+      "emojis": [
+        "🔍",
+        "💻",
+        "👠",
+        "📱"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_074.json"
+    },
+    {
+      "levelNumber": 75,
+      "titleId": "romance-is-a-bonus-book-2019",
+      "originalTitle": "Romance Is a Bonus Book",
+      "difficulty": "Medium",
+      "emojis": [
+        "📚",
+        "✍️",
+        "☕",
+        "📖"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_075.json"
+    },
+    {
+      "levelNumber": 76,
+      "titleId": "the-crowned-clown-2019",
+      "originalTitle": "The Crowned Clown",
+      "difficulty": "Medium",
+      "emojis": [
+        "🤡",
+        "👑",
+        "📜",
+        "🎭"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_076.json"
+    },
+    {
+      "levelNumber": 77,
+      "titleId": "her-private-life-2019",
+      "originalTitle": "Her Private Life",
+      "difficulty": "Medium",
+      "emojis": [
+        "📷",
+        "🎨",
+        "🎤",
+        "🖼️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_077.json"
+    },
+    {
+      "levelNumber": 78,
+      "titleId": "itaewon-class-2020",
+      "originalTitle": "Itaewon Class",
+      "difficulty": "Medium",
+      "emojis": [
+        "🌰",
+        "🍻",
+        "🥊",
+        "🏢"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_078.json"
+    },
+    {
+      "levelNumber": 79,
+      "titleId": "the-world-of-the-married-2020",
+      "originalTitle": "The World of the Married",
+      "difficulty": "Medium",
+      "emojis": [
+        "💔",
+        "💄",
+        "🍷",
+        "💍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_079.json"
+    },
+    {
+      "levelNumber": 80,
+      "titleId": "hospital-playlist-2020",
+      "originalTitle": "Hospital Playlist",
+      "difficulty": "Medium",
+      "emojis": [
+        "🩺",
+        "🎸",
+        "🥁",
+        "🏥",
+        "☕"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_080.json"
+    },
+    {
+      "levelNumber": 81,
+      "titleId": "its-okay-to-not-be-okay-2020",
+      "originalTitle": "It's Okay to Not Be Okay",
+      "difficulty": "Medium",
+      "emojis": [
+        "🦋",
+        "📚",
+        "🧸",
+        "🏰"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_081.json"
+    },
+    {
+      "levelNumber": 82,
+      "titleId": "start-up-2020",
+      "originalTitle": "Start-Up",
+      "difficulty": "Medium",
+      "emojis": [
+        "💻",
+        "🚀",
+        "🥪",
+        "✉️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_082.json"
+    },
+    {
+      "levelNumber": 83,
+      "titleId": "flower-of-evil-2020",
+      "originalTitle": "Flower of Evil",
+      "difficulty": "Medium",
+      "emojis": [
+        "🥀",
+        "🔨",
+        "🚔",
+        "🩸"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_083.json"
+    },
+    {
+      "levelNumber": 84,
+      "titleId": "sweet-home-2020",
+      "originalTitle": "Sweet Home",
+      "difficulty": "Medium",
+      "emojis": [
+        "🧟",
+        "🏢",
+        "🩸",
+        "⚡",
+        "👁️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_084.json"
+    },
+    {
+      "levelNumber": 85,
+      "titleId": "the-penthouse-war-in-life-2020",
+      "originalTitle": "The Penthouse: War in Life",
+      "difficulty": "Medium",
+      "emojis": [
+        "🍷",
+        "🎹",
+        "🏛️",
+        "🩸",
+        "💎"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_085.json"
+    },
+    {
+      "levelNumber": 86,
+      "titleId": "true-beauty-2020",
+      "originalTitle": "True Beauty",
+      "difficulty": "Medium",
+      "emojis": [
+        "💄",
+        "🏍️",
+        "📚",
+        "🏫"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_086.json"
+    },
+    {
+      "levelNumber": 87,
+      "titleId": "18-again-2020",
+      "originalTitle": "18 Again",
+      "difficulty": "Medium",
+      "emojis": [
+        "🏀",
+        "⏰",
+        "⛹️",
+        "📺"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_087.json"
+    },
+    {
+      "levelNumber": 88,
+      "titleId": "the-king-eternal-monarch-2020",
+      "originalTitle": "The King: Eternal Monarch",
+      "difficulty": "Medium",
+      "emojis": [
+        "👑",
+        "🐎",
+        "🚪",
+        "🎋",
+        "⚡"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_088.json"
+    },
+    {
+      "levelNumber": 89,
+      "titleId": "extracurricular-2020",
+      "originalTitle": "Extracurricular",
+      "difficulty": "Medium",
+      "emojis": [
+        "📱",
+        "🦀",
+        "💵",
+        "🎒"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_089.json"
+    },
+    {
+      "levelNumber": 90,
+      "titleId": "squid-game-2021",
+      "originalTitle": "Squid Game",
+      "difficulty": "Medium",
+      "emojis": [
+        "🦑",
+        "🍭",
+        "🔺",
+        "🟥",
+        "4️⃣5️⃣6️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_090.json"
+    },
+    {
+      "levelNumber": 91,
+      "titleId": "vincenzo-2021",
+      "originalTitle": "Vincenzo",
+      "difficulty": "Medium",
+      "emojis": [
+        "🇮🇹",
+        "⚖️",
+        "🕊️",
+        "🔥",
+        "🪙"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_091.json"
+    },
+    {
+      "levelNumber": 92,
+      "titleId": "hometown-cha-cha-cha-2021",
+      "originalTitle": "Hometown Cha-Cha-Cha",
+      "difficulty": "Medium",
+      "emojis": [
+        "🌊",
+        "🦷",
+        "🏄",
+        "☕",
+        "🏖️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_092.json"
+    },
+    {
+      "levelNumber": 93,
+      "titleId": "taxi-driver-2021",
+      "originalTitle": "Taxi Driver",
+      "difficulty": "Medium",
+      "emojis": [
+        "🚕",
+        "🕹️",
+        "👊",
+        "⚖️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_093.json"
+    },
+    {
+      "levelNumber": 94,
+      "titleId": "the-red-sleeve-2021",
+      "originalTitle": "The Red Sleeve",
+      "difficulty": "Medium",
+      "emojis": [
+        "👑",
+        "📜",
+        "👘",
+        "🍂"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_094.json"
+    },
+    {
+      "levelNumber": 95,
+      "titleId": "dp-2021",
+      "originalTitle": "D.P.",
+      "difficulty": "Medium",
+      "emojis": [
+        "🪖",
+        "🔍",
+        "🏃",
+        "🎖️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_095.json"
+    },
+    {
+      "levelNumber": 96,
+      "titleId": "beyond-evil-2021",
+      "originalTitle": "Beyond Evil",
+      "difficulty": "Medium",
+      "emojis": [
+        "🌾",
+        "🩸",
+        "🚔",
+        "🔎"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_096.json"
+    },
+    {
+      "levelNumber": 97,
+      "titleId": "happiness-2021",
+      "originalTitle": "Happiness",
+      "difficulty": "Medium",
+      "emojis": [
+        "🏢",
+        "💊",
+        "🧟",
+        "🩸"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_097.json"
+    },
+    {
+      "levelNumber": 98,
+      "titleId": "hellbound-2021",
+      "originalTitle": "Hellbound",
+      "difficulty": "Medium",
+      "emojis": [
+        "👹",
+        "🔥",
+        "📜",
+        "📹"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_098.json"
+    },
+    {
+      "levelNumber": 99,
+      "titleId": "my-name-2021",
+      "originalTitle": "My Name",
+      "difficulty": "Medium",
+      "emojis": [
+        "🥊",
+        "🔪",
+        "🚔",
+        "🩸"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_099.json"
+    },
+    {
+      "levelNumber": 100,
+      "titleId": "youth-of-may-2021",
+      "originalTitle": "Youth of May",
+      "difficulty": "Medium",
+      "emojis": [
+        "🕊️",
+        "🩺",
+        "🎸",
+        "1️⃣9️⃣8️⃣0️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_100.json"
+    },
+    {
+      "levelNumber": 101,
+      "titleId": "move-to-heaven-2021",
+      "originalTitle": "Move to Heaven",
+      "difficulty": "Medium",
+      "emojis": [
+        "📦",
+        "🧹",
+        "🧤",
+        "🕊️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_101.json"
+    },
+    {
+      "levelNumber": 102,
+      "titleId": "extraordinary-attorney-woo-2022",
+      "originalTitle": "Extraordinary Attorney Woo",
+      "difficulty": "Medium",
+      "emojis": [
+        "🐳",
+        "⚖️",
+        "🍙",
+        "🎧"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_102.json"
+    },
+    {
+      "levelNumber": 103,
+      "titleId": "twenty-five-twenty-one-2022",
+      "originalTitle": "Twenty-Five Twenty-One",
+      "difficulty": "Medium",
+      "emojis": [
+        "🤺",
+        "📼",
+        "🗞️",
+        "2️⃣5️⃣",
+        "2️⃣1️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_103.json"
+    },
+    {
+      "levelNumber": 104,
+      "titleId": "business-proposal-2022",
+      "originalTitle": "Business Proposal",
+      "difficulty": "Medium",
+      "emojis": [
+        "💼",
+        "👓",
+        "🍗",
+        "🦖",
+        "💍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_104.json"
+    },
+    {
+      "levelNumber": 105,
+      "titleId": "alchemy-of-souls-2022",
+      "originalTitle": "Alchemy of Souls",
+      "difficulty": "Medium",
+      "emojis": [
+        "🔮",
+        "⚔️",
+        "🧊",
+        "👁️",
+        "🕊️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_105.json"
+    },
+    {
+      "levelNumber": 106,
+      "titleId": "all-of-us-are-dead-2022",
+      "originalTitle": "All of Us Are Dead",
+      "difficulty": "Medium",
+      "emojis": [
+        "🧟",
+        "🏫",
+        "🏹",
+        "🩸",
+        "📱"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_106.json"
+    },
+    {
+      "levelNumber": 107,
+      "titleId": "reborn-rich-2022",
+      "originalTitle": "Reborn Rich",
+      "difficulty": "Medium",
+      "emojis": [
+        "💵",
+        "🚗",
+        "⏳",
+        "👴",
+        "📈"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_107.json"
+    },
+    {
+      "levelNumber": 108,
+      "titleId": "our-blues-2022",
+      "originalTitle": "Our Blues",
+      "difficulty": "Medium",
+      "emojis": [
+        "🌊",
+        "🐟",
+        "🏝️",
+        "🎨",
+        "🚛"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_108.json"
+    },
+    {
+      "levelNumber": 109,
+      "titleId": "little-women-2022",
+      "originalTitle": "Little Women",
+      "difficulty": "Medium",
+      "emojis": [
+        "🌺",
+        "💰",
+        "🇸🇬",
+        "👩‍👧‍👧"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_109.json"
+    },
+    {
+      "levelNumber": 110,
+      "titleId": "weak-hero-class-1-2022",
+      "originalTitle": "Weak Hero Class 1",
+      "difficulty": "Medium",
+      "emojis": [
+        "🖊️",
+        "🧠",
+        "👊",
+        "🎒"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_110.json"
+    },
+    {
+      "levelNumber": 111,
+      "titleId": "under-the-queens-umbrella-2022",
+      "originalTitle": "Under the Queen's Umbrella",
+      "difficulty": "Hard",
+      "emojis": [
+        "☂️",
+        "👑",
+        "📜",
+        "🏃‍♀️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_111.json"
+    },
+    {
+      "levelNumber": 112,
+      "titleId": "big-mouth-2022",
+      "originalTitle": "Big Mouth",
+      "difficulty": "Hard",
+      "emojis": [
+        "🐁",
+        "⛓️",
+        "⚖️",
+        "💉",
+        "💰"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_112.json"
+    },
+    {
+      "levelNumber": 113,
+      "titleId": "semantic-error-2022",
+      "originalTitle": "Semantic Error",
+      "difficulty": "Hard",
+      "emojis": [
+        "💻",
+        "🎨",
+        "🔴",
+        "🎮"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_113.json"
+    },
+    {
+      "levelNumber": 114,
+      "titleId": "through-the-darkness-2022",
+      "originalTitle": "Through the Darkness",
+      "difficulty": "Hard",
+      "emojis": [
+        "🧠",
+        "🔍",
+        "🚔",
+        "🎙️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_114.json"
+    },
+    {
+      "levelNumber": 115,
+      "titleId": "the-glory-2023",
+      "originalTitle": "The Glory",
+      "difficulty": "Hard",
+      "emojis": [
+        "⚪",
+        "⚫",
+        "🧲",
+        "👠",
+        "🩸"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_115.json"
+    },
+    {
+      "levelNumber": 116,
+      "titleId": "moving-2023",
+      "originalTitle": "Moving",
+      "difficulty": "Hard",
+      "emojis": [
+        "🦸",
+        "✈️",
+        "🍱",
+        "🩸",
+        "🎒"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_116.json"
+    },
+    {
+      "levelNumber": 117,
+      "titleId": "king-the-land-2023",
+      "originalTitle": "King the Land",
+      "difficulty": "Hard",
+      "emojis": [
+        "🏨",
+        "👑",
+        "😊",
+        "🚁",
+        "🍾"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_117.json"
+    },
+    {
+      "levelNumber": 118,
+      "titleId": "crash-course-in-romance-2023",
+      "originalTitle": "Crash Course in Romance",
+      "difficulty": "Hard",
+      "emojis": [
+        "📐",
+        "🍱",
+        "👨‍🏫",
+        "🎯"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_118.json"
+    },
+    {
+      "levelNumber": 119,
+      "titleId": "my-demon-2023",
+      "originalTitle": "My Demon",
+      "difficulty": "Hard",
+      "emojis": [
+        "😈",
+        "✝️",
+        "💍",
+        "🍰"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_119.json"
+    },
+    {
+      "levelNumber": 120,
+      "titleId": "castaway-diva-2023",
+      "originalTitle": "Castaway Diva",
+      "difficulty": "Hard",
+      "emojis": [
+        "🏝️",
+        "🎤",
+        "🌊",
+        "🎸"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_120.json"
+    },
+    {
+      "levelNumber": 121,
+      "titleId": "twinkling-watermelon-2023",
+      "originalTitle": "Twinkling Watermelon",
+      "difficulty": "Hard",
+      "emojis": [
+        "🍉",
+        "🎸",
+        "🤟",
+        "⏳",
+        "✨"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_121.json"
+    },
+    {
+      "levelNumber": 122,
+      "titleId": "daily-dose-of-sunshine-2023",
+      "originalTitle": "Daily Dose of Sunshine",
+      "difficulty": "Hard",
+      "emojis": [
+        "☀️",
+        "🩺",
+        "🧠",
+        "🏥"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_122.json"
+    },
+    {
+      "levelNumber": 123,
+      "titleId": "the-worst-of-evil-2023",
+      "originalTitle": "The Worst of Evil",
+      "difficulty": "Hard",
+      "emojis": [
+        "🚬",
+        "🔪",
+        "🕶️",
+        "🩸"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_123.json"
+    },
+    {
+      "levelNumber": 124,
+      "titleId": "bloodhounds-2023",
+      "originalTitle": "Bloodhounds",
+      "difficulty": "Hard",
+      "emojis": [
+        "🥊",
+        "🐕",
+        "💵",
+        "🩸"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_124.json"
+    },
+    {
+      "levelNumber": 125,
+      "titleId": "deaths-game-2023",
+      "originalTitle": "Death's Game",
+      "difficulty": "Hard",
+      "emojis": [
+        "💀",
+        "⏳",
+        "🔄",
+        "🩸",
+        "1️⃣2️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_125.json"
+    },
+    {
+      "levelNumber": 126,
+      "titleId": "the-good-bad-mother-2023",
+      "originalTitle": "The Good Bad Mother",
+      "difficulty": "Hard",
+      "emojis": [
+        "🐷",
+        "👩‍👦",
+        "⚖️",
+        "🌾"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_126.json"
+    },
+    {
+      "levelNumber": 127,
+      "titleId": "doctor-cha-2023",
+      "originalTitle": "Doctor Cha",
+      "difficulty": "Hard",
+      "emojis": [
+        "🩺",
+        "👩‍⚕️",
+        "🏥",
+        "🍰"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_127.json"
+    },
+    {
+      "levelNumber": 128,
+      "titleId": "my-dearest-2023",
+      "originalTitle": "My Dearest",
+      "difficulty": "Hard",
+      "emojis": [
+        "🌾",
+        "⚔️",
+        "🪭",
+        "👟",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_128.json"
+    },
+    {
+      "levelNumber": 129,
+      "titleId": "mask-girl-2023",
+      "originalTitle": "Mask Girl",
+      "difficulty": "Hard",
+      "emojis": [
+        "🎭",
+        "💄",
+        "📹",
+        "🔪"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_129.json"
+    },
+    {
+      "levelNumber": 130,
+      "titleId": "celebrity-2023",
+      "originalTitle": "Celebrity",
+      "difficulty": "Hard",
+      "emojis": [
+        "📱",
+        "👗",
+        "✨",
+        "💄"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_130.json"
+    },
+    {
+      "levelNumber": 131,
+      "titleId": "queen-of-tears-2024",
+      "originalTitle": "Queen of Tears",
+      "difficulty": "Hard",
+      "emojis": [
+        "👑",
+        "😢",
+        "🏬",
+        "🇩🇪",
+        "💍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_131.json"
+    },
+    {
+      "levelNumber": 132,
+      "titleId": "lovely-runner-2024",
+      "originalTitle": "Lovely Runner",
+      "difficulty": "Hard",
+      "emojis": [
+        "🏃‍♀️",
+        "☂️",
+        "⌚",
+        "🎤",
+        "🏊‍♂️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_132.json"
+    },
+    {
+      "levelNumber": 133,
+      "titleId": "marry-my-husband-2024",
+      "originalTitle": "Marry My Husband",
+      "difficulty": "Hard",
+      "emojis": [
+        "💍",
+        "⏳",
+        "🗑️",
+        "💙",
+        "🥘"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_133.json"
+    },
+    {
+      "levelNumber": 134,
+      "titleId": "a-shop-for-killers-2024",
+      "originalTitle": "A Shop for Killers",
+      "difficulty": "Hard",
+      "emojis": [
+        "🛒",
+        "🎯",
+        "🔫",
+        "🏚️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_134.json"
+    },
+    {
+      "levelNumber": 135,
+      "titleId": "the-atypical-family-2024",
+      "originalTitle": "The Atypical Family",
+      "difficulty": "Hard",
+      "emojis": [
+        "⏳",
+        "🧖‍♀️",
+        "🦸‍♂️",
+        "🌧️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_135.json"
+    },
+    {
+      "levelNumber": 136,
+      "titleId": "miss-night-and-day-2024",
+      "originalTitle": "Miss Night and Day",
+      "difficulty": "Hard",
+      "emojis": [
+        "☀️",
+        "🌙",
+        "🐱",
+        "👵",
+        "💼"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_136.json"
+    },
+    {
+      "levelNumber": 137,
+      "titleId": "good-partner-2024",
+      "originalTitle": "Good Partner",
+      "difficulty": "Hard",
+      "emojis": [
+        "⚖️",
+        "💔",
+        "👩‍💼",
+        "📑"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_137.json"
+    },
+    {
+      "levelNumber": 138,
+      "titleId": "jeongnyeon-the-star-is-born-2024",
+      "originalTitle": "Jeongnyeon: The Star Is Born",
+      "difficulty": "Hard",
+      "emojis": [
+        "🎭",
+        "🎶",
+        "🇰🇷",
+        "⭐"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_138.json"
+    },
+    {
+      "levelNumber": 139,
+      "titleId": "love-next-door-2024",
+      "originalTitle": "Love Next Door",
+      "difficulty": "Hard",
+      "emojis": [
+        "🏡",
+        "📐",
+        "🍳",
+        "🚲"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_139.json"
+    },
+    {
+      "levelNumber": 140,
+      "titleId": "the-trunk-2024",
+      "originalTitle": "The Trunk",
+      "difficulty": "Hard",
+      "emojis": [
+        "🧳",
+        "💍",
+        "🌊",
+        "🕯️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_140.json"
+    },
+    {
+      "levelNumber": 141,
+      "titleId": "connection-2024",
+      "originalTitle": "Connection",
+      "difficulty": "Hard",
+      "emojis": [
+        "💊",
+        "🍋",
+        "🚔",
+        "⛓️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_141.json"
+    },
+    {
+      "levelNumber": 142,
+      "titleId": "flex-x-cop-2024",
+      "originalTitle": "Flex X Cop",
+      "difficulty": "Hard",
+      "emojis": [
+        "🚁",
+        "💳",
+        "🚔",
+        "🛥️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_142.json"
+    },
+    {
+      "levelNumber": 143,
+      "titleId": "doctor-slump-2024",
+      "originalTitle": "Doctor Slump",
+      "difficulty": "Hard",
+      "emojis": [
+        "🩺",
+        "🏥",
+        "📚",
+        "🏠"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_143.json"
+    },
+    {
+      "levelNumber": 144,
+      "titleId": "squid-game-2-2024",
+      "originalTitle": "Squid Game 2",
+      "difficulty": "Hard",
+      "emojis": [
+        "🦑",
+        "2️⃣",
+        "🟥",
+        "🔺",
+        "💰"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_144.json"
+    },
+    {
+      "levelNumber": 145,
+      "titleId": "when-the-stars-gossip-2025",
+      "originalTitle": "When the Stars Gossip",
+      "difficulty": "Hard",
+      "emojis": [
+        "🚀",
+        "🧑‍🚀",
+        "🌌",
+        "🛰️",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_145.json"
+    },
+    {
+      "levelNumber": 146,
+      "titleId": "all-of-us-are-dead-2-2026",
+      "originalTitle": "All of Us Are Dead Season 2",
+      "difficulty": "Hard",
+      "emojis": [
+        "🧟",
+        "🏙️",
+        "🩸",
+        "2️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_146.json"
+    },
+    {
+      "levelNumber": 147,
+      "titleId": "signal-2-2026",
+      "originalTitle": "Signal Season 2",
+      "difficulty": "Hard",
+      "emojis": [
+        "📻",
+        "⏰",
+        "2️⃣",
+        "🚔"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_147.json"
+    },
+    {
+      "levelNumber": 148,
+      "titleId": "chicago-typewriter-2017",
+      "originalTitle": "Chicago Typewriter",
+      "difficulty": "Hard",
+      "emojis": [
+        "⌨️",
+        "👻",
+        "📜",
+        "🕰️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_148.json"
+    },
+    {
+      "levelNumber": 149,
+      "titleId": "rain-or-shine-2017",
+      "originalTitle": "Rain or Shine",
+      "difficulty": "Hard",
+      "emojis": [
+        "🌧️",
+        "🏢",
+        "🩹",
+        "🏗️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_149.json"
+    },
+    {
+      "levelNumber": 150,
+      "titleId": "live-2018",
+      "originalTitle": "Live",
+      "difficulty": "Hard",
+      "emojis": [
+        "👮",
+        "🚔",
+        "🚨",
+        "📑"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_150.json"
+    },
+    {
+      "levelNumber": 151,
+      "titleId": "life-on-mars-2018",
+      "originalTitle": "Life on Mars",
+      "difficulty": "Hard",
+      "emojis": [
+        "📼",
+        "🚔",
+        "📻",
+        "1️⃣9️⃣8️⃣8️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_151.json"
+    },
+    {
+      "levelNumber": 152,
+      "titleId": "encounter-2018",
+      "originalTitle": "Encounter",
+      "difficulty": "Hard",
+      "emojis": [
+        "🇨🇺",
+        "🌅",
+        "📷",
+        "🏨",
+        "👠"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_152.json"
+    },
+    {
+      "levelNumber": 153,
+      "titleId": "the-beauty-inside-2018",
+      "originalTitle": "The Beauty Inside",
+      "difficulty": "Hard",
+      "emojis": [
+        "🪞",
+        "✈️",
+        "👗",
+        "✨"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_153.json"
+    },
+    {
+      "levelNumber": 154,
+      "titleId": "be-melodramatic-2019",
+      "originalTitle": "Be Melodramatic",
+      "difficulty": "Hard",
+      "emojis": [
+        "✍️",
+        "🎥",
+        "🍜",
+        "👭"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_154.json"
+    },
+    {
+      "levelNumber": 155,
+      "titleId": "one-the-woman-2021",
+      "originalTitle": "One the Woman",
+      "difficulty": "Hard",
+      "emojis": [
+        "🥊",
+        "⚖️",
+        "👑",
+        "🍾"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_155.json"
+    },
+    {
+      "levelNumber": 156,
+      "titleId": "the-kings-affection-2021",
+      "originalTitle": "The King's Affection",
+      "difficulty": "Hard",
+      "emojis": [
+        "👑",
+        "🏹",
+        "🌸",
+        "📜"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_156.json"
+    },
+    {
+      "levelNumber": 157,
+      "titleId": "forecasting-love-and-weather-2022",
+      "originalTitle": "Forecasting Love and Weather",
+      "difficulty": "Hard",
+      "emojis": [
+        "⛅",
+        "⛈️",
+        "☔",
+        "🏢"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_157.json"
+    },
+    {
+      "levelNumber": 158,
+      "titleId": "military-prosecutor-doberman-2022",
+      "originalTitle": "Military Prosecutor Doberman",
+      "difficulty": "Hard",
+      "emojis": [
+        "🐕",
+        "🪖",
+        "⚖️",
+        "⚔️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_158.json"
+    },
+    {
+      "levelNumber": 159,
+      "titleId": "destined-with-you-2023",
+      "originalTitle": "Destined with You",
+      "difficulty": "Hard",
+      "emojis": [
+        "📜",
+        "🏺",
+        "⚖️",
+        "✨",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_159.json"
+    },
+    {
+      "levelNumber": 160,
+      "titleId": "welcome-to-samdal-ri-2023",
+      "originalTitle": "Welcome to Samdal-ri",
+      "difficulty": "Hard",
+      "emojis": [
+        "🌊",
+        "📷",
+        "🏝️",
+        "🎤"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_160.json"
+    },
+    {
+      "levelNumber": 161,
+      "titleId": "the-midnight-romance-in-hagwon-2024",
+      "originalTitle": "The Midnight Romance in Hagwon",
+      "difficulty": "Hard",
+      "emojis": [
+        "📚",
+        "🌙",
+        "🏫",
+        "✍️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_161.json"
+    },
+    {
+      "levelNumber": 162,
+      "titleId": "no-gain-no-love-2024",
+      "originalTitle": "No Gain No Love",
+      "difficulty": "Hard",
+      "emojis": [
+        "💍",
+        "🏪",
+        "📊",
+        "💰"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_162.json"
+    },
+    {
+      "levelNumber": 163,
+      "titleId": "black-out-2024",
+      "originalTitle": "Black Out",
+      "difficulty": "Hard",
+      "emojis": [
+        "🕯️",
+        "🚔",
+        "🔍",
+        "⛓️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_163.json"
+    },
+    {
+      "levelNumber": 164,
+      "titleId": "secret-garden-2010",
+      "originalTitle": "Secret Garden",
+      "difficulty": "Hard",
+      "emojis": [
+        "✨",
+        "🥋",
+        "☕",
+        "🔄"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_164.json"
+    },
+    {
+      "levelNumber": 165,
+      "titleId": "my-girlfriend-is-a-gumiho-2010",
+      "originalTitle": "My Girlfriend is a Gumiho",
+      "difficulty": "Hard",
+      "emojis": [
+        "🦊",
+        "🥩",
+        "✨",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_165.json"
+    },
+    {
+      "levelNumber": 166,
+      "titleId": "sungkyunkwan-scandal-2010",
+      "originalTitle": "Sungkyunkwan Scandal",
+      "difficulty": "Expert",
+      "emojis": [
+        "📜",
+        "🏹",
+        "🧑‍🎓",
+        "🤫"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_166.json"
+    },
+    {
+      "levelNumber": 167,
+      "titleId": "dong-yi-2010",
+      "originalTitle": "Dong Yi",
+      "difficulty": "Expert",
+      "emojis": [
+        "👑",
+        "🎶",
+        "💧",
+        "📜"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_167.json"
+    },
+    {
+      "levelNumber": 168,
+      "titleId": "athena-goddess-of-war-2010",
+      "originalTitle": "Athena: Goddess of War",
+      "difficulty": "Expert",
+      "emojis": [
+        "🛡️",
+        "🔫",
+        "💥",
+        "🌍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_168.json"
+    },
+    {
+      "levelNumber": 169,
+      "titleId": "city-hunter-2011",
+      "originalTitle": "City Hunter",
+      "difficulty": "Expert",
+      "emojis": [
+        "🏙️",
+        "🎯",
+        "🔫",
+        "🛡️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_169.json"
+    },
+    {
+      "levelNumber": 170,
+      "titleId": "dream-high-2011",
+      "originalTitle": "Dream High",
+      "difficulty": "Expert",
+      "emojis": [
+        "🎤",
+        "🎶",
+        "⭐",
+        "🏫"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_170.json"
+    },
+    {
+      "levelNumber": 171,
+      "titleId": "protect-the-boss-2011",
+      "originalTitle": "Protect the Boss",
+      "difficulty": "Expert",
+      "emojis": [
+        "💼",
+        "👔",
+        "🥊",
+        "☕"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_171.json"
+    },
+    {
+      "levelNumber": 172,
+      "titleId": "tree-with-deep-roots-2011",
+      "originalTitle": "Deep Rooted Tree",
+      "difficulty": "Expert",
+      "emojis": [
+        "📜",
+        "👑",
+        "🌳",
+        "🔤"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_172.json"
+    },
+    {
+      "levelNumber": 173,
+      "titleId": "the-princess-man-2011",
+      "originalTitle": "The Princess' Man",
+      "difficulty": "Expert",
+      "emojis": [
+        "🏹",
+        "👑",
+        "💔",
+        "🐎"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_173.json"
+    },
+    {
+      "levelNumber": 174,
+      "titleId": "the-moon-embracing-the-sun-2012",
+      "originalTitle": "The Moon Embracing the Sun",
+      "difficulty": "Expert",
+      "emojis": [
+        "🌙",
+        "☀️",
+        "👑",
+        "🔮"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_174.json"
+    },
+    {
+      "levelNumber": 175,
+      "titleId": "reply-1997-2012",
+      "originalTitle": "Reply 1997",
+      "difficulty": "Expert",
+      "emojis": [
+        "📼",
+        "📟",
+        "📻",
+        "1️⃣9️⃣9️⃣7️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_175.json"
+    },
+    {
+      "levelNumber": 176,
+      "titleId": "rooftop-prince-2012",
+      "originalTitle": "Rooftop Prince",
+      "difficulty": "Expert",
+      "emojis": [
+        "👑",
+        "🏠",
+        "⏰",
+        "🍳"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_176.json"
+    },
+    {
+      "levelNumber": 177,
+      "titleId": "bridal-mask-2012",
+      "originalTitle": "Bridal Mask",
+      "difficulty": "Expert",
+      "emojis": [
+        "🎭",
+        "⚔️",
+        "🐎",
+        "🛡️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_177.json"
+    },
+    {
+      "levelNumber": 178,
+      "titleId": "school-2013-2012",
+      "originalTitle": "School 2013",
+      "difficulty": "Expert",
+      "emojis": [
+        "🏫",
+        "🎒",
+        "👬",
+        "📚"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_178.json"
+    },
+    {
+      "levelNumber": 179,
+      "titleId": "the-innocent-man-2012",
+      "originalTitle": "The Innocent Man",
+      "difficulty": "Expert",
+      "emojis": [
+        "💔",
+        "💊",
+        "🚗",
+        "❄️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_179.json"
+    },
+    {
+      "levelNumber": 180,
+      "titleId": "queen-in-hyuns-man-2012",
+      "originalTitle": "Queen In-hyun's Man",
+      "difficulty": "Expert",
+      "emojis": [
+        "📜",
+        "⏳",
+        "📱",
+        "💋"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_180.json"
+    },
+    {
+      "levelNumber": 181,
+      "titleId": "my-love-from-the-star-2013",
+      "originalTitle": "My Love from the Star",
+      "difficulty": "Expert",
+      "emojis": [
+        "🛸",
+        "⭐",
+        "🍗",
+        "🍺",
+        "⏳"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_181.json"
+    },
+    {
+      "levelNumber": 182,
+      "titleId": "the-heirs-2013",
+      "originalTitle": "The Heirs",
+      "difficulty": "Expert",
+      "emojis": [
+        "👑",
+        "🏫",
+        "🏄",
+        "💎"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_182.json"
+    },
+    {
+      "levelNumber": 183,
+      "titleId": "masters-sun-2013",
+      "originalTitle": "The Master's Sun",
+      "difficulty": "Expert",
+      "emojis": [
+        "👻",
+        "☀️",
+        "🏬",
+        "🤝"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_183.json"
+    },
+    {
+      "levelNumber": 184,
+      "titleId": "i-can-hear-your-voice-2013",
+      "originalTitle": "I Can Hear Your Voice",
+      "difficulty": "Expert",
+      "emojis": [
+        "👂",
+        "🧠",
+        "⚖️",
+        "🦈"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_184.json"
+    },
+    {
+      "levelNumber": 185,
+      "titleId": "reply-1994-2013",
+      "originalTitle": "Reply 1994",
+      "difficulty": "Expert",
+      "emojis": [
+        "⚾",
+        "🏀",
+        "🏠",
+        "1️⃣9️⃣9️⃣4️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_185.json"
+    },
+    {
+      "levelNumber": 186,
+      "titleId": "good-doctor-2013",
+      "originalTitle": "Good Doctor",
+      "difficulty": "Expert",
+      "emojis": [
+        "🩺",
+        "🏥",
+        "🧠",
+        "👶"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_186.json"
+    },
+    {
+      "levelNumber": 187,
+      "titleId": "gu-family-book-2013",
+      "originalTitle": "Gu Family Book",
+      "difficulty": "Expert",
+      "emojis": [
+        "🐺",
+        "📖",
+        "🌙",
+        "⚔️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_187.json"
+    },
+    {
+      "levelNumber": 188,
+      "titleId": "empress-ki-2013",
+      "originalTitle": "Empress Ki",
+      "difficulty": "Expert",
+      "emojis": [
+        "👑",
+        "🦅",
+        "⚔️",
+        "💍"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_188.json"
+    },
+    {
+      "levelNumber": 189,
+      "titleId": "misaeng-incomplete-life-2014",
+      "originalTitle": "Misaeng: Incomplete Life",
+      "difficulty": "Expert",
+      "emojis": [
+        "👔",
+        "🏢",
+        "⚪",
+        "⚫",
+        "💼"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_189.json"
+    },
+    {
+      "levelNumber": 190,
+      "titleId": "pinocchio-2014",
+      "originalTitle": "Pinocchio",
+      "difficulty": "Expert",
+      "emojis": [
+        "🤥",
+        "📺",
+        "🎤",
+        "🍞"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_190.json"
+    },
+    {
+      "levelNumber": 191,
+      "titleId": "healer-2014",
+      "originalTitle": "Healer",
+      "difficulty": "Expert",
+      "emojis": [
+        "🏃",
+        "🕶️",
+        "📻",
+        "🌃"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_191.json"
+    },
+    {
+      "levelNumber": 192,
+      "titleId": "its-okay-thats-love-2014",
+      "originalTitle": "It's Okay, That's Love",
+      "difficulty": "Expert",
+      "emojis": [
+        "🧠",
+        "🛋️",
+        "✍️",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_192.json"
+    },
+    {
+      "levelNumber": 193,
+      "titleId": "bad-guys-2014",
+      "originalTitle": "Bad Guys",
+      "difficulty": "Expert",
+      "emojis": [
+        "⛓️",
+        "👊",
+        "🚔",
+        "🐺"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_193.json"
+    },
+    {
+      "levelNumber": 194,
+      "titleId": "doctor-stranger-2014",
+      "originalTitle": "Doctor Stranger",
+      "difficulty": "Expert",
+      "emojis": [
+        "🩺",
+        "🇰🇵",
+        "🇰🇷",
+        "❤️"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_194.json"
+    },
+    {
+      "levelNumber": 195,
+      "titleId": "you-who-came-from-the-stars-movie-2014",
+      "originalTitle": "The Pirates",
+      "difficulty": "Expert",
+      "emojis": [
+        "🏴‍☠️",
+        "🐋",
+        "⚔️",
+        "👑"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_195.json"
+    },
+    {
+      "levelNumber": 196,
+      "titleId": "reply-1988-2015",
+      "originalTitle": "Reply 1988",
+      "difficulty": "Expert",
+      "emojis": [
+        "🏘️",
+        "⚪",
+        "⚫",
+        "📻",
+        "1️⃣9️⃣8️⃣8️⃣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_196.json"
+    },
+    {
+      "levelNumber": 197,
+      "titleId": "kill-me-heal-me-2015",
+      "originalTitle": "Kill Me, Heal Me",
+      "difficulty": "Expert",
+      "emojis": [
+        "🪞",
+        "🎀",
+        "💄",
+        "💣"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_197.json"
+    },
+    {
+      "levelNumber": 198,
+      "titleId": "she-was-pretty-2015",
+      "originalTitle": "She Was Pretty",
+      "difficulty": "Expert",
+      "emojis": [
+        "👠",
+        "📰",
+        "🧩",
+        "🧅"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_198.json"
+    },
+    {
+      "levelNumber": 199,
+      "titleId": "oh-my-ghost-2015",
+      "originalTitle": "Oh My Ghost",
+      "difficulty": "Expert",
+      "emojis": [
+        "👻",
+        "🍳",
+        "🔪",
+        "🍲"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_199.json"
+    },
+    {
+      "levelNumber": 200,
+      "titleId": "six-flying-dragons-2015",
+      "originalTitle": "Six Flying Dragons",
+      "difficulty": "Expert",
+      "emojis": [
+        "🐉",
+        "⚔️",
+        "👑",
+        "📜"
+      ],
+      "file": "assets/puzzles/rebus/level_rebus_200.json"
+    }
+  ]
+}

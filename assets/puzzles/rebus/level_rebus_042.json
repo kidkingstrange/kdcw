@@ -1,0 +1,60 @@
+{
+  "levelNumber": 42,
+  "titleId": "signal-2016",
+  "originalTitle": "Signal",
+  "difficulty": "Easy",
+  "emojis": [
+    "📻",
+    "⏰",
+    "🚔",
+    "🔍"
+  ],
+  "triviaFact": "Detectives communicate across a 15-year time gap using a battery-less walkie-talkie to solve real cold cases.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Signal_(South_Korean_TV_series)",
+    "https://koreajoongangdaily.joins.com/2016/03/14/etc/Signal-draws-record-viewership/3016186.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "I",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "L",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "levelNumber": 95,
+  "titleId": "dp-2021",
+  "originalTitle": "D.P.",
+  "difficulty": "Medium",
+  "emojis": [
+    "🪖",
+    "🔍",
+    "🏃",
+    "🎖️"
+  ],
+  "triviaFact": "Ignited intense national conversation in South Korea regarding systemic hazing and psychological abuse inside military barracks.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/D.P._(TV_series)",
+    "https://www.nytimes.com/2021/09/24/world/asia/south-korea-military-hazing-dp-netflix.html"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": ".",
+          "isPunctuation": true,
+          "userChar": ".",
+          "isLocked": true
+        },
+        {
+          "expectedChar": "P",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": ".",
+          "isPunctuation": true,
+          "userChar": ".",
+          "isLocked": true
+        }
+      ]
+    }
+  ]
+}

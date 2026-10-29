@@ -1,0 +1,96 @@
+{
+  "levelNumber": 125,
+  "titleId": "deaths-game-2023",
+  "originalTitle": "Death's Game",
+  "difficulty": "Hard",
+  "emojis": [
+    "💀",
+    "⏳",
+    "🔄",
+    "🩸",
+    "1️⃣2️⃣"
+  ],
+  "triviaFact": "Featured an ultra star-studded cast playing Yi-jae's reincarnations, including Seo In-guk, Park So-dam, and Lee Jae-wook.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Death%27s_Game",
+    "https://en.yna.co.kr/view/AEN20240112002500315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "D",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "H",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "'",
+          "isPunctuation": true,
+          "userChar": "'",
+          "isLocked": true
+        },
+        {
+          "expectedChar": "S",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    },
+    {
+      "wordIndex": 1,
+      "slots": [
+        {
+          "expectedChar": "G",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "A",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "M",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}

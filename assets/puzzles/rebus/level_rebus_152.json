@@ -1,0 +1,79 @@
+{
+  "levelNumber": 152,
+  "titleId": "encounter-2018",
+  "originalTitle": "Encounter",
+  "difficulty": "Hard",
+  "emojis": [
+    "🇨🇺",
+    "🌅",
+    "📷",
+    "🏨",
+    "👠"
+  ],
+  "triviaFact": "Song Hye-kyo and Park Bo-gum filmed romantic seaside sunset sequences on location across Havana, Cuba.",
+  "triviaSources": [
+    "https://en.wikipedia.org/wiki/Encounter_(South_Korean_TV_series)",
+    "https://en.yna.co.kr/view/AEN20181129002200315"
+  ],
+  "wordRows": [
+    {
+      "wordIndex": 0,
+      "slots": [
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "C",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "O",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "U",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "N",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "T",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "E",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        },
+        {
+          "expectedChar": "R",
+          "isPunctuation": false,
+          "userChar": "",
+          "isLocked": false
+        }
+      ]
+    }
+  ]
+}
