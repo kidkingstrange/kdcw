@@ -39,11 +39,11 @@ jobs:
 
       - name: Verify Pre-Compiled Puzzles Integrity
         run: |
-          python3 -c "import json, os; m = json.load(open('assets/puzzles/manifest.json')); assert m['totalCrossword'] == 200 and m['totalRebus'] == 200, f'Invalid manifest: {m}'"
+          python3 -c "import json; m = json.load(open('assets/puzzles/manifest.json', encoding='utf-8')); assert m['crosswordLevelsCount'] == 200 and m['rebusLevelsCount'] == 200, f'Invalid manifest: {m}'"
           echo "Verified 400 launch puzzle JSONs are present and indexed."
 
       - name: Build Android App Bundle (AAB)
-        run: flutter build appbundle --release --no-codesign
+        run: flutter build appbundle --release
 
       - name: Upload Release AAB Artifact
         uses: actions/upload-artifact@v4
