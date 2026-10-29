@@ -1,5 +1,6 @@
 # K-Drama Crosswords (2010–2026)
 
+[![Google Play](https://img.shields.io/badge/Google%20Play-Closed%20Testing%20Live-brightgreen?logo=googleplay)](https://play.google.com/apps/testing/com.kdramacrosswords.app)
 [![CI/CD Pipeline](https://github.com/kidkingstrange/kdcw/actions/workflows/ci.yml/badge.svg)](https://github.com/kidkingstrange/kdcw/actions/workflows/ci.yml)
 [![Flutter Version](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter)](https://flutter.dev)
 [![Pure Dart Test Coverage](https://img.shields.io/badge/Test%20Coverage-95.1%25-brightgreen)](test/)
