@@ -1,0 +1,50 @@
+Celebrate your favorite Korean dramas with K-Drama Crosswords — the definitive, premium, 100% offline puzzle game built for true K-Drama fans!
+
+Whether you fell in love with classic hits from 2010 or binge-watched the latest global sensations of 2026, put your drama knowledge to the test across 400 hand-crafted levels, 163 verified dramas, and over 1,600 dual-verified trivia clues.
+
+Enjoy an uninterrupted, ad-free experience with zero microtransactions, zero energy meters, and zero internet connection required.
+
+🌟 DUAL GAME MODES
+
+1. Classic Crosswords (200 Levels)
+• Connected word grids spanning Easy (7x7) up to Expert (13x13).
+• Clues test you on iconic character names, legendary OSTs, famous quotes, filming locations, and signature props.
+• Word-Locking Feedback: Solved words illuminate in calming mint with a checkmark badge and permanently lock in place!
+• Effortless direction toggling (Across & Down) with an intuitive clue ribbon above your native device keyboard.
+
+2. Emoji & Icon Title Rebus (200 Levels)
+• Solve clever 2-to-6 visual emoji sequences representing your favorite K-Drama titles!
+• Dedicated Word Rows: Unlike standard wrap-around grids, titles are arranged into structured, dedicated vertical rows with adaptive scale-down to prevent awkward mid-word breaks.
+• Non-alphanumeric punctuation (hyphens, colons, apostrophes) is rendered as fixed separators for crystal-clear legibility.
+• Mystery level headings hide the answer until you solve it, guaranteeing zero spoilers!
+• Post-solve trivia cards explain the visual wordplay and provide behind-the-scenes facts.
+
+🏆 163 ICONIC DRAMAS SPANNING 2010–2026
+Test your knowledge across legendary hits, cult favorites, and modern masterpieces:
+• Crash Landing on You, Goblin, Descendants of the Sun, Secret Garden, Healer
+• Squid Game, The Glory, Vincenzo, Extraordinary Attorney Woo, Itaewon Class, Hospital Playlist
+• Queen of Tears, Lovely Runner, Marry My Husband, Moving, Twenty-Five Twenty-One, Hotel Del Luna
+• Reply 1988, Signal, Stranger, My Mister, Kingdom, Alchemy of Souls, Business Proposal
+• ...and over 140 more verified dramas from tvN, JTBC, SBS, KBS2, MBC, ENA, Netflix, and Disney+!
+
+💎 FEATURES DESIGNED FOR FANS
+
+• 100% Offline Gameplay: No internet needed! Play anywhere — on subways, flights, or daily commutes.
+• Pure-Dart Fast Engines: Instant load times with 60/120 FPS performance on all devices. No loading spinners, no lag.
+• Native Keyboard Integration: Type naturally using your phone’s native soft keyboard with automatic focus recovery when switching apps.
+• Progressive 3-Tier Hint Shop: Earn coins naturally as you play (+50 per word, +100 per rebus, +200 level bonus).
+  - Hint 1 (50 coins): Reveal starting letter.
+  - Hint 2 (100 coins): Reveal another letter.
+  - Hint 3 (250 coins): Solve whole word/title.
+• Trophy Hall / Dex: Every completed puzzle permanently unlocks a verified behind-the-scenes lore card with accredited reference sources.
+• Daily Challenge: Sharpen your memory daily with a persistent streak flame counter!
+• Aesthetic K-Drama Palette: Soothing Pastel Rose & Celadon Sage with full Dark Mode support and comfortable 48dp touch targets.
+
+🛡️ ZERO ADS, ZERO TRACKING, ZERO DATA COLLECTION
+• No ads, banners, or popups.
+• No in-app purchases or pay-to-win mechanics.
+• No account registration required.
+• Requires zero network permissions. Your progress stays 100% private on your device.
+
+⚖️ LEGAL DISCLAIMER
+K-Drama Crosswords is an unofficial fan trivia game. It is not affiliated with, sponsored by, or endorsed by any television network, production company, streaming platform, studio, or rights holder. All drama titles, character names, and registered trademarks belong to their respective copyright holders.
