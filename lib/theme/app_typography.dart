@@ -47,6 +47,16 @@ class AppTypography {
             : (isDark ? AppColors.textPrimaryDark : AppColors.textPrimaryLight),
       );
 
+  // Rebus Large Slot Letter (Enhanced Visibility)
+  static TextStyle rebusSlotLetter(bool isDark, {bool isLocked = false}) => TextStyle(
+        fontFamily: headingFont,
+        fontSize: 30,
+        fontWeight: FontWeight.bold,
+        color: isLocked
+            ? (isDark ? AppColors.mintLock : AppColors.mintLockBorder)
+            : (isDark ? AppColors.textPrimaryDark : AppColors.textPrimaryLight),
+      );
+
   // Body & Clues (Nunito)
   static TextStyle bodyLarge(bool isDark) => TextStyle(
         fontFamily: bodyFont,

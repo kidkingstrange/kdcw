@@ -199,25 +199,32 @@ class _RebusScreenState extends State<RebusScreen> {
         body: SafeArea(
           child: Column(
             children: [
-              // 1. Emoji Riddle Banner with dynamic keyboard responsiveness
+              // 1. High-Visibility Emoji Riddle Banner with dynamic responsiveness
               AnimatedContainer(
                 duration: const Duration(milliseconds: 200),
                 width: double.infinity,
                 margin: EdgeInsets.symmetric(
                   horizontal: 16,
-                  vertical: keyboardOpen ? 8 : 16,
+                  vertical: keyboardOpen ? 6 : 14,
                 ),
                 padding: EdgeInsets.symmetric(
-                  vertical: keyboardOpen ? 12 : 20,
+                  vertical: keyboardOpen ? 10 : 18,
                   horizontal: 16,
                 ),
                 decoration: BoxDecoration(
                   color: isDark ? AppColors.surfaceDark : AppColors.cardLight,
-                  borderRadius: BorderRadius.circular(16),
+                  borderRadius: BorderRadius.circular(20),
                   border: Border.all(
                     color: isDark ? AppColors.cellBorderDark : AppColors.cellBorderLight,
                     width: 1.5,
                   ),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withValues(alpha: isDark ? 0.3 : 0.05),
+                      blurRadius: 10,
+                      offset: const Offset(0, 4),
+                    ),
+                  ],
                 ),
                 child: Column(
                   children: [
@@ -225,21 +232,48 @@ class _RebusScreenState extends State<RebusScreen> {
                       'DECODE THE EMOJI RIDDLE',
                       style: TextStyle(
                         fontFamily: AppTypography.headingFont,
-                        fontSize: keyboardOpen ? 11 : 12,
+                        fontSize: keyboardOpen ? 11 : 13,
                         fontWeight: FontWeight.bold,
-                        letterSpacing: 1.0,
+                        letterSpacing: 1.2,
                         color: AppColors.sageGreenDark,
                       ),
                     ),
-                    SizedBox(height: keyboardOpen ? 6 : 10),
+                    SizedBox(height: keyboardOpen ? 8 : 14),
                     Wrap(
                       spacing: 12,
-                      runSpacing: 6,
+                      runSpacing: 8,
                       alignment: WrapAlignment.center,
                       children: level.emojis
-                          .map((emoji) => Text(
-                                emoji,
-                                style: TextStyle(fontSize: keyboardOpen ? 30 : 42),
+                          .map((emoji) => Container(
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: keyboardOpen ? 10 : 14,
+                                  vertical: keyboardOpen ? 4 : 8,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: isDark
+                                      ? AppColors.bgDark.withValues(alpha: 0.8)
+                                      : Colors.white,
+                                  borderRadius: BorderRadius.circular(16),
+                                  border: Border.all(
+                                    color: isDark
+                                        ? AppColors.cellBorderDark
+                                        : AppColors.primaryRose.withValues(alpha: 0.2),
+                                    width: 1.2,
+                                  ),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black.withValues(alpha: 0.04),
+                                      blurRadius: 6,
+                                      offset: const Offset(0, 2),
+                                    ),
+                                  ],
+                                ),
+                                child: Text(
+                                  emoji,
+                                  style: TextStyle(
+                                    fontSize: keyboardOpen ? 44 : 60,
+                                  ),
+                                ),
                               ))
                           .toList(),
                     ),
@@ -247,7 +281,7 @@ class _RebusScreenState extends State<RebusScreen> {
                 ),
               ),
 
-              // 2. Dedicated Word Rows (FittedBox auto down-scaled)
+              // 2. Dedicated Word Rows (FittedBox auto down-scaled with enhanced visibility)
               Expanded(
                 child: Center(
                   child: SingleChildScrollView(
@@ -297,7 +331,7 @@ class _RebusScreenState extends State<RebusScreen> {
 
   Widget _buildDedicatedWordRow(RebusWordRow wordRow, int rowIdx, bool isDark) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6),
+      padding: const EdgeInsets.symmetric(vertical: 8),
       child: FittedBox(
         fit: BoxFit.scaleDown,
         child: Row(
@@ -315,15 +349,15 @@ class _RebusScreenState extends State<RebusScreen> {
     // Non-alphanumeric punctuation rendered as fixed separator
     if (slot.isPunctuation) {
       return Container(
-        margin: const EdgeInsets.symmetric(horizontal: 4),
-        padding: const EdgeInsets.symmetric(horizontal: 2),
+        margin: const EdgeInsets.symmetric(horizontal: 5),
+        padding: const EdgeInsets.symmetric(horizontal: 3),
         child: Text(
           slot.expectedChar,
           style: TextStyle(
             fontFamily: AppTypography.headingFont,
-            fontSize: 28,
+            fontSize: 36,
             fontWeight: FontWeight.bold,
-            color: isDark ? Colors.white54 : AppColors.textSecondaryLight,
+            color: isDark ? Colors.white60 : AppColors.textSecondaryLight,
           ),
         ),
       );
@@ -355,30 +389,30 @@ class _RebusScreenState extends State<RebusScreen> {
         NativeKeyboardWrapper.requestKeyboard(_keyboardFocusNode);
       },
       child: Container(
-        width: 44,
-        height: 52,
-        margin: const EdgeInsets.symmetric(horizontal: 3),
+        width: 56,
+        height: 68,
+        margin: const EdgeInsets.symmetric(horizontal: 4),
         decoration: BoxDecoration(
           color: bg,
-          borderRadius: BorderRadius.circular(8),
+          borderRadius: BorderRadius.circular(12),
           border: Border.all(
             color: borderColor,
-            width: isSelected ? 2.5 : 1.5,
+            width: isSelected ? 3.0 : 1.8,
           ),
-          boxShadow: isSelected
-              ? [
-                  BoxShadow(
-                    color: AppColors.primaryRose.withValues(alpha: 0.35),
-                    blurRadius: 6,
-                    spreadRadius: 1,
-                  )
-                ]
-              : null,
+          boxShadow: [
+            BoxShadow(
+              color: isSelected
+                  ? AppColors.primaryRose.withValues(alpha: 0.4)
+                  : Colors.black.withValues(alpha: isDark ? 0.25 : 0.05),
+              blurRadius: isSelected ? 8 : 4,
+              offset: const Offset(0, 2),
+            ),
+          ],
         ),
         child: Center(
           child: Text(
             slot.userChar,
-            style: AppTypography.cellLetter(isDark, isLocked: isLocked),
+            style: AppTypography.rebusSlotLetter(isDark, isLocked: isLocked),
           ),
         ),
       ),
