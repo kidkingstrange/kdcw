@@ -1,0 +1,7 @@
+# Linguistic overrides for GitHub repository statistics
+*.dart linguist-detectable=true
+*.json linguist-generated=true
+bin/** linguist-detectable=true
+lib/** linguist-detectable=true
+test/** linguist-detectable=true
+docs/** linguist-documentation=true

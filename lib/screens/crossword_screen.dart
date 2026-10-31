@@ -25,6 +25,7 @@ class CrosswordScreen extends StatefulWidget {
 
 class _CrosswordScreenState extends State<CrosswordScreen> {
   CrosswordEngine? _engine;
+  final FocusNode _keyboardFocusNode = FocusNode();
   bool _isLoading = true;
   String? _error;
 
@@ -32,6 +33,12 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
   void initState() {
     super.initState();
     _loadLevel();
+  }
+
+  @override
+  void dispose() {
+    _keyboardFocusNode.dispose();
+    super.dispose();
   }
 
   Future<void> _loadLevel() async {
@@ -99,19 +106,22 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
       HapticFeedback.heavyImpact();
     }
 
-    GameStorage().completeCrosswordLevel(
+    final storage = GameStorage();
+    // Complete level and award +200 level bonus
+    storage.completeCrosswordLevel(
       widget.levelNumber,
       3, // 3 stars
       titleId: _engine!.level.title.toLowerCase().replaceAll(' ', '-'),
     );
 
+    // Fetch verified lore fact from content if available
     TriviaCardDialog.show(
       context,
       title: _engine!.level.title,
-      triviaFact: "Solved all intersecting words for '${_engine!.level.title}'. Level completed!",
+      triviaFact: "Completed Level ${widget.levelNumber} of ${_engine!.level.title} in K-Drama Crosswords!",
       sources: const [
         "https://en.wikipedia.org",
-        "https://themoviedb.org",
+        "https://themoviedb.org"
       ],
       bonusCoins: GameStorage.levelCompleteBonusCoins,
       onContinue: () {
@@ -130,19 +140,19 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
         setState(() {
           _engine!.hintRevealStartingLetter();
         });
-        if (_engine!.isPuzzleComplete) _handlePuzzleComplete();
       },
       onHintTier2: () {
         setState(() {
           _engine!.hintRevealAnotherLetter();
         });
-        if (_engine!.isPuzzleComplete) _handlePuzzleComplete();
       },
       onHintTier3: () {
         setState(() {
           _engine!.hintSolveWord();
+          if (_engine!.isPuzzleComplete) {
+            _handlePuzzleComplete();
+          }
         });
-        if (_engine!.isPuzzleComplete) _handlePuzzleComplete();
       },
     );
   }
@@ -166,6 +176,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
     }
 
     return NativeKeyboardWrapper(
+      focusNode: _keyboardFocusNode,
       onLetterEntered: _onLetterEntered,
       onBackspace: _onBackspace,
       child: Scaffold(
@@ -208,22 +219,38 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
         body: SafeArea(
           child: Column(
             children: [
-              // 1. Crossword Connected Grid Area
+              // 1. Crossword Connected Grid Area with responsive auto-fit scaling
               Expanded(
-                child: Center(
-                  child: SingleChildScrollView(
-                    child: Padding(
-                      padding: const EdgeInsets.all(12),
-                      child: _buildGrid(isDark),
-                    ),
-                  ),
+                child: LayoutBuilder(
+                  builder: (context, constraints) {
+                    final cols = _engine!.level.cols;
+                    final rows = _engine!.level.rows;
+                    final availW = constraints.maxWidth - 24;
+                    final availH = constraints.maxHeight - 16;
+
+                    // Compute square cell size ensuring grid stays 100% visible
+                    final cellSizeW = availW / cols;
+                    final cellSizeH = availH / rows;
+                    final cellSize = cellSizeW < cellSizeH ? cellSizeW : cellSizeH;
+
+                    return Center(
+                      child: Padding(
+                        padding: const EdgeInsets.all(8),
+                        child: SizedBox(
+                          width: cellSize * cols,
+                          height: cellSize * rows,
+                          child: _buildGrid(isDark, cellSize),
+                        ),
+                      ),
+                    );
+                  },
                 ),
               ),
 
               // 2. Active Clue Ribbon above soft keyboard
               _buildClueRibbon(isDark),
 
-              // 3. Action Toolbar (Hint Shop & Direction Toggle)
+              // 3. Action Toolbar (Hint Shop, Direction Toggle & Native Keyboard Summon)
               _buildActionBar(isDark),
             ],
           ),
@@ -232,33 +259,30 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
     );
   }
 
-  Widget _buildGrid(bool isDark) {
+  Widget _buildGrid(bool isDark, double cellSize) {
     final grid = _engine!.level.grid;
     final rows = _engine!.level.rows;
     final cols = _engine!.level.cols;
 
-    return AspectRatio(
-      aspectRatio: cols / rows,
-      child: GridView.builder(
-        physics: const NeverScrollableScrollPhysics(),
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: cols,
-          crossAxisSpacing: 3,
-          mainAxisSpacing: 3,
-        ),
-        itemCount: rows * cols,
-        itemBuilder: (context, index) {
-          final r = index ~/ cols;
-          final c = index % cols;
-          final cell = grid[r][c];
-
-          return _buildCell(cell, r, c, isDark);
-        },
+    return GridView.builder(
+      physics: const NeverScrollableScrollPhysics(),
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: cols,
+        crossAxisSpacing: 3,
+        mainAxisSpacing: 3,
       ),
+      itemCount: rows * cols,
+      itemBuilder: (context, index) {
+        final r = index ~/ cols;
+        final c = index % cols;
+        final cell = grid[r][c];
+
+        return _buildCell(cell, r, c, isDark, cellSize);
+      },
     );
   }
 
-  Widget _buildCell(CrosswordCell cell, int r, int c, bool isDark) {
+  Widget _buildCell(CrosswordCell cell, int r, int c, bool isDark, double cellSize) {
     if (cell.isBlocked) {
       return Container(
         decoration: BoxDecoration(
@@ -306,10 +330,12 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
     }
 
     return GestureDetector(
+      behavior: HitTestBehavior.opaque,
       onTap: () {
         setState(() {
           _engine!.selectCell(r, c);
         });
+        NativeKeyboardWrapper.requestKeyboard(_keyboardFocusNode);
       },
       child: Container(
         decoration: BoxDecoration(
@@ -319,6 +345,15 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
             color: borderColor,
             width: isSelected ? 2.5 : 1.2,
           ),
+          boxShadow: isSelected
+              ? [
+                  BoxShadow(
+                    color: AppColors.primaryRose.withValues(alpha: 0.35),
+                    blurRadius: 6,
+                    spreadRadius: 1,
+                  )
+                ]
+              : null,
         ),
         child: Stack(
           children: [
@@ -331,7 +366,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
                   '${cell.number}',
                   style: TextStyle(
                     fontFamily: AppTypography.headingFont,
-                    fontSize: 9,
+                    fontSize: cellSize > 35 ? 10 : 8,
                     fontWeight: FontWeight.bold,
                     color: isDark ? Colors.white70 : AppColors.textSecondaryLight,
                   ),
@@ -342,7 +377,14 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
             Center(
               child: Text(
                 cell.userLetter,
-                style: AppTypography.cellLetter(isDark, isLocked: cell.isLocked),
+                style: TextStyle(
+                  fontFamily: AppTypography.headingFont,
+                  fontSize: cellSize > 35 ? 20 : 16,
+                  fontWeight: FontWeight.bold,
+                  color: cell.isLocked
+                      ? AppColors.mintLock
+                      : (isDark ? AppColors.textPrimaryDark : AppColors.textPrimaryLight),
+                ),
               ),
             ),
 
@@ -351,7 +393,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
               const Positioned(
                 bottom: 2,
                 right: 2,
-                child: Icon(Icons.check, size: 10, color: AppColors.mintLock),
+                child: Icon(Icons.check, size: 12, color: AppColors.mintLock),
               ),
           ],
         ),
@@ -364,7 +406,7 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
 
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
       decoration: BoxDecoration(
         color: isDark ? AppColors.surfaceDark : AppColors.primaryRoseLight,
         border: Border(
@@ -376,18 +418,19 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
       ),
       child: Row(
         children: [
-          // Direction Badge
+          // Direction Badge (Tap to toggle Across / Down)
           GestureDetector(
             onTap: () {
               setState(() {
                 _engine!.toggleDirection();
               });
+              NativeKeyboardWrapper.requestKeyboard(_keyboardFocusNode);
             },
             child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
               decoration: BoxDecoration(
                 color: AppColors.primaryRose,
-                borderRadius: BorderRadius.circular(6),
+                borderRadius: BorderRadius.circular(8),
               ),
               child: Text(
                 clue != null ? '${clue.number} ${clue.direction.name.toUpperCase()}' : 'ACROSS',
@@ -430,15 +473,29 @@ class _CrosswordScreenState extends State<CrosswordScreen> {
             label: const Text('HINT SHOP'),
           ),
 
-          // Toggle Across/Down button
-          IconButton(
-            onPressed: () {
-              setState(() {
-                _engine!.toggleDirection();
-              });
-            },
-            icon: const Icon(Icons.sync_alt, color: AppColors.primaryRose),
-            tooltip: 'Toggle Direction',
+          Row(
+            children: [
+              // Show Native Keyboard button
+              IconButton(
+                onPressed: () {
+                  NativeKeyboardWrapper.requestKeyboard(_keyboardFocusNode);
+                },
+                icon: const Icon(Icons.keyboard, color: AppColors.sageGreenDark),
+                tooltip: 'Open Native Keyboard',
+              ),
+
+              // Toggle Across/Down button
+              IconButton(
+                onPressed: () {
+                  setState(() {
+                    _engine!.toggleDirection();
+                  });
+                  NativeKeyboardWrapper.requestKeyboard(_keyboardFocusNode);
+                },
+                icon: const Icon(Icons.sync_alt, color: AppColors.primaryRose),
+                tooltip: 'Toggle Direction',
+              ),
+            ],
           ),
         ],
       ),

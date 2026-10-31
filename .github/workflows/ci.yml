@@ -6,9 +6,12 @@ on:
   pull_request:
     branches: [ main, master ]
 
+permissions:
+  contents: write
+
 jobs:
   test_and_build:
-    name: Test & Build Release Bundle
+    name: Test & Build Release Bundle and APK
     runs-on: ubuntu-latest
 
     steps:
@@ -37,13 +40,14 @@ jobs:
       - name: Execute Unit Test Suite with Coverage
         run: flutter test --coverage
 
-      - name: Verify Pre-Compiled Puzzles Integrity
-        run: |
-          python3 -c "import json; m = json.load(open('assets/puzzles/manifest.json', encoding='utf-8')); assert m['crosswordLevelsCount'] == 200 and m['rebusLevelsCount'] == 200, f'Invalid manifest: {m}'"
-          echo "Verified 400 launch puzzle JSONs are present and indexed."
+      - name: Verify Pre-Compiled Puzzles Integrity (Pure Dart)
+        run: dart run bin/verify_puzzles.dart
 
-      - name: Build Android App Bundle (AAB)
+      - name: Build Android App Bundle (AAB Release)
         run: flutter build appbundle --release
+
+      - name: Build Android APK (Release)
+        run: flutter build apk --release
 
       - name: Upload Release AAB Artifact
         uses: actions/upload-artifact@v4
@@ -51,3 +55,29 @@ jobs:
           name: kdrama-crosswords-release-aab
           path: build/app/outputs/bundle/release/app-release.aab
           if-no-files-found: error
+
+      - name: Upload Release APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kdrama-crosswords-release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+
+      - name: Publish GitHub Release with APK & AAB
+        if: github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        continue-on-error: true
+        with:
+          tag_name: v1.0.0
+          name: "Release v1.0.0 (APK & AAB Included)"
+          body: |
+            ## K-Drama Crosswords v1.0.0 (Pure Flutter & Dart)
+            - **app-release.apk**: Direct installation APK for Android phones (100% offline, zero network permissions).
+            - **app-release.aab**: Signed Google Play production bundle.
+            - 400 verified levels across 163 South Korean Dramas (2010–2026).
+            - Native keyboard lifecycle focus recovery via WidgetsBindingObserver.
+          files: |
+            build/app/outputs/bundle/release/app-release.aab
+            build/app/outputs/flutter-apk/app-release.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -72,7 +72,9 @@ This game is designed to be fully commercial, zero-risk, and 100% compliant:
 │   ├── theme/                     # Pastel Rose & Sage tokens, typography, dark mode
 │   └── widgets/                   # Native keyboard wrapper, hint shop, brand motif
 ├── test/                          # Comprehensive engine unit test suite
-└── tools/                         # Build-time dataset & puzzle compilers
+└── bin/                           # Pure-Dart build-time compilers & verifiers
+    ├── compile_puzzles.dart       # Pure-Dart puzzle generator (400 levels)
+    └── verify_puzzles.dart        # Pure-Dart puzzle validator
 ```
 
 ---
@@ -81,7 +83,7 @@ This game is designed to be fully commercial, zero-risk, and 100% compliant:
 
 ### Prerequisites
 - [Flutter SDK](https://flutter.dev) (3.x stable)
-- [Python 3.10+](https://python.org) (for build-time compilers in `tools/`)
+- [Dart SDK](https://dart.dev) (included with Flutter)
 
 ### Setup & Run
 ```bash
@@ -98,19 +100,20 @@ flutter test test/crossword_engine_test.dart test/rebus_engine_test.dart
 flutter run
 ```
 
-### Build-Time Compilation (Optional Re-Generation)
+### Build-Time Compilation (Pure Dart)
 ```bash
-# Rebuild titles dataset
-python tools/build_titles_dataset.py
-
-# Rebuild clues dataset (1,600+ clues)
-python tools/build_clues_dataset.py
-
 # Recompile all 400 puzzle levels
-python tools/compile_puzzles.py
+dart run bin/compile_puzzles.dart
+
+# Verify puzzle integrity
+dart run bin/verify_puzzles.dart
 ```
 
-### Android Production Build
+### Android Production Builds
 ```bash
-flutter build appbundle --release --no-codesign
+# Build Google Play release App Bundle (AAB)
+flutter build appbundle --release
+
+# Build standalone Android APK
+flutter build apk --release
 ```

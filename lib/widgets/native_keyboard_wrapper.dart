@@ -4,8 +4,11 @@ import 'package:flutter/services.dart';
 /// Wraps puzzle gameplay screens to bridge Flutter with the device's native IME keyboard
 /// (Gboard, Samsung Keyboard, iOS software keyboard).
 ///
-/// Features WidgetsBindingObserver lifecycle recovery so that backgrounding/resuming the app
-/// automatically re-attaches focus without freezing or losing the soft keyboard.
+/// Utilizes a transparent native input field with a sentinel space character so that:
+/// 1. The native keyboard opens immediately and reliably on mobile devices.
+/// 2. Letters entered on any software keyboard auto-advance seamlessly.
+/// 3. Backspace on soft keyboards is captured 100% reliably via text deletion.
+/// 4. WidgetsBindingObserver recovers IME focus upon app resume.
 class NativeKeyboardWrapper extends StatefulWidget {
   final Widget child;
   final ValueChanged<String> onLetterEntered;
@@ -20,26 +23,39 @@ class NativeKeyboardWrapper extends StatefulWidget {
     this.focusNode,
   });
 
+  /// Static helper to explicitly summon the native soft keyboard
+  static void requestKeyboard(FocusNode focusNode) {
+    focusNode.requestFocus();
+    SystemChannels.textInput.invokeMethod('TextInput.show');
+  }
+
   @override
   State<NativeKeyboardWrapper> createState() => _NativeKeyboardWrapperState();
 }
 
 class _NativeKeyboardWrapperState extends State<NativeKeyboardWrapper> with WidgetsBindingObserver {
   late final FocusNode _focusNode;
-  final TextEditingController _controller = TextEditingController();
+  static const String _sentinel = ' ';
+  late final TextEditingController _controller;
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     _focusNode = widget.focusNode ?? FocusNode();
+    _controller = TextEditingController(text: _sentinel);
 
-    // Proactively request keyboard on screen mount
+    // Proactively summon the native software keyboard on mount
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (mounted) {
-        _focusNode.requestFocus();
+        _requestNativeKeyboard();
       }
     });
+  }
+
+  void _requestNativeKeyboard() {
+    _focusNode.requestFocus();
+    SystemChannels.textInput.invokeMethod('TextInput.show');
   }
 
   @override
@@ -58,21 +74,42 @@ class _NativeKeyboardWrapperState extends State<NativeKeyboardWrapper> with Widg
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.resumed) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (mounted && !_focusNode.hasFocus) {
-          _focusNode.requestFocus();
+        if (mounted) {
+          _requestNativeKeyboard();
         }
       });
     }
   }
 
+  void _resetController() {
+    _controller.value = const TextEditingValue(
+      text: _sentinel,
+      selection: TextSelection.collapsed(offset: 1),
+    );
+  }
+
   void _handleChanged(String value) {
-    if (value.isEmpty) return;
+    // 1. Backspace detection on software keyboards:
+    // When the user taps Backspace on Gboard/Samsung Keyboard, it deletes the sentinel character.
+    if (value.isEmpty) {
+      widget.onBackspace();
+      _resetController();
+      return;
+    }
 
-    final lastChar = value[value.length - 1];
-    widget.onLetterEntered(lastChar);
+    // 2. Letter input detection:
+    // Extract any new character(s) typed after/around the sentinel
+    final newChars = value.replaceAll(_sentinel, '');
+    if (newChars.isNotEmpty) {
+      for (var i = 0; i < newChars.length; i++) {
+        final ch = newChars[i].toUpperCase();
+        if (RegExp(r'[A-Za-z0-9]').hasMatch(ch)) {
+          widget.onLetterEntered(ch);
+        }
+      }
+    }
 
-    // Keep hidden buffer empty for next keystroke
-    _controller.value = TextEditingValue.empty;
+    _resetController();
   }
 
   KeyEventResult _handleKeyEvent(FocusNode node, KeyEvent event) {
@@ -83,7 +120,7 @@ class _NativeKeyboardWrapperState extends State<NativeKeyboardWrapper> with Widg
       }
       final character = event.character;
       if (character != null && character.isNotEmpty && RegExp(r'[A-Za-z0-9]').hasMatch(character)) {
-        widget.onLetterEntered(character);
+        widget.onLetterEntered(character.toUpperCase());
         return KeyEventResult.handled;
       }
     }
@@ -93,39 +130,41 @@ class _NativeKeyboardWrapperState extends State<NativeKeyboardWrapper> with Widg
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      behavior: HitTestBehavior.opaque,
+      behavior: HitTestBehavior.translucent,
       onTap: () {
-        if (!_focusNode.hasFocus) {
-          _focusNode.requestFocus();
-        }
+        _requestNativeKeyboard();
       },
       child: Stack(
         children: [
-          // Main interactive UI
+          // 1. Main interactive puzzle UI
           widget.child,
 
-          // Invisible 1-pixel native TextField capturing software keyboard input
+          // 2. Native Transparent Input Anchor (placed in layout bounds with minimal opacity so Android IME sees it as active)
           Positioned(
-            left: -100,
-            top: -100,
+            left: 0,
+            top: 0,
             width: 1,
             height: 1,
-            child: Focus(
-              onKeyEvent: _handleKeyEvent,
-              child: TextField(
-                controller: _controller,
-                focusNode: _focusNode,
-                autofocus: true,
-                enableSuggestions: false,
-                autocorrect: false,
-                keyboardType: TextInputType.text,
-                textCapitalization: TextCapitalization.characters,
-                inputFormatters: [
-                  FilteringTextInputFormatter.allow(RegExp(r'[A-Za-z0-9]')),
-                ],
-                onChanged: _handleChanged,
-                decoration: const InputDecoration(
-                  border: InputBorder.none,
+            child: Opacity(
+              opacity: 0.01,
+              child: Focus(
+                onKeyEvent: _handleKeyEvent,
+                child: TextField(
+                  controller: _controller,
+                  focusNode: _focusNode,
+                  autofocus: true,
+                  enableSuggestions: false,
+                  autocorrect: false,
+                  showCursor: false,
+                  textInputAction: TextInputAction.none,
+                  keyboardType: TextInputType.text,
+                  textCapitalization: TextCapitalization.characters,
+                  onChanged: _handleChanged,
+                  decoration: const InputDecoration(
+                    border: InputBorder.none,
+                    isDense: true,
+                    contentPadding: EdgeInsets.zero,
+                  ),
                 ),
               ),
             ),

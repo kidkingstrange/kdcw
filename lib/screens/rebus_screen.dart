@@ -25,6 +25,7 @@ class RebusScreen extends StatefulWidget {
 
 class _RebusScreenState extends State<RebusScreen> {
   RebusEngine? _engine;
+  final FocusNode _keyboardFocusNode = FocusNode();
   bool _isLoading = true;
   String? _error;
 
@@ -32,6 +33,12 @@ class _RebusScreenState extends State<RebusScreen> {
   void initState() {
     super.initState();
     _loadLevel();
+  }
+
+  @override
+  void dispose() {
+    _keyboardFocusNode.dispose();
+    super.dispose();
   }
 
   Future<void> _loadLevel() async {
@@ -107,21 +114,18 @@ class _RebusScreenState extends State<RebusScreen> {
       isCrossword: false,
       onHintTier1: () {
         setState(() {
-          if (_engine!.hintRevealStartingLetter()) {
-            if (_engine!.isSolved) _handleRebusSolved();
-          }
+          _engine!.hintRevealStartingLetter();
         });
       },
       onHintTier2: () {
         setState(() {
-          if (_engine!.hintRevealAnotherLetter()) {
-            if (_engine!.isSolved) _handleRebusSolved();
-          }
+          _engine!.hintRevealAnotherLetter();
         });
       },
       onHintTier3: () {
         setState(() {
-          if (_engine!.hintSolveTitle()) {
+          _engine!.hintSolveTitle();
+          if (_engine!.isSolved) {
             _handleRebusSolved();
           }
         });
@@ -133,6 +137,7 @@ class _RebusScreenState extends State<RebusScreen> {
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final storage = GameStorage();
+    final keyboardOpen = MediaQuery.of(context).viewInsets.bottom > 0;
 
     if (_isLoading) {
       return const Scaffold(
@@ -151,6 +156,7 @@ class _RebusScreenState extends State<RebusScreen> {
     final isSolved = _engine!.isSolved;
 
     return NativeKeyboardWrapper(
+      focusNode: _keyboardFocusNode,
       onLetterEntered: _onLetterEntered,
       onBackspace: _onBackspace,
       child: Scaffold(
@@ -193,14 +199,21 @@ class _RebusScreenState extends State<RebusScreen> {
         body: SafeArea(
           child: Column(
             children: [
-              // 1. Emoji Riddle Banner (2-6 emojis)
-              Container(
+              // 1. Emoji Riddle Banner with dynamic keyboard responsiveness
+              AnimatedContainer(
+                duration: const Duration(milliseconds: 200),
                 width: double.infinity,
-                margin: const EdgeInsets.all(16),
-                padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 16),
+                margin: EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: keyboardOpen ? 8 : 16,
+                ),
+                padding: EdgeInsets.symmetric(
+                  vertical: keyboardOpen ? 12 : 20,
+                  horizontal: 16,
+                ),
                 decoration: BoxDecoration(
                   color: isDark ? AppColors.surfaceDark : AppColors.cardLight,
-                  borderRadius: BorderRadius.circular(20),
+                  borderRadius: BorderRadius.circular(16),
                   border: Border.all(
                     color: isDark ? AppColors.cellBorderDark : AppColors.cellBorderLight,
                     width: 1.5,
@@ -212,21 +225,21 @@ class _RebusScreenState extends State<RebusScreen> {
                       'DECODE THE EMOJI RIDDLE',
                       style: TextStyle(
                         fontFamily: AppTypography.headingFont,
-                        fontSize: 12,
+                        fontSize: keyboardOpen ? 11 : 12,
                         fontWeight: FontWeight.bold,
                         letterSpacing: 1.0,
                         color: AppColors.sageGreenDark,
                       ),
                     ),
-                    const SizedBox(height: 12),
+                    SizedBox(height: keyboardOpen ? 6 : 10),
                     Wrap(
                       spacing: 12,
-                      runSpacing: 8,
+                      runSpacing: 6,
                       alignment: WrapAlignment.center,
                       children: level.emojis
                           .map((emoji) => Text(
                                 emoji,
-                                style: const TextStyle(fontSize: 42),
+                                style: TextStyle(fontSize: keyboardOpen ? 30 : 42),
                               ))
                           .toList(),
                     ),
@@ -238,7 +251,7 @@ class _RebusScreenState extends State<RebusScreen> {
               Expanded(
                 child: Center(
                   child: SingleChildScrollView(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: List.generate(
@@ -250,25 +263,27 @@ class _RebusScreenState extends State<RebusScreen> {
                 ),
               ),
 
-              // 3. Bottom Action Bar
+              // 3. Bottom Action Bar (Hint Shop & Native Keyboard Summon)
               Container(
-                padding: const EdgeInsets.all(16),
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 color: isDark ? AppColors.bgDark : AppColors.cardLight,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    // Hint Shop
+                    // Hint Shop Button
                     OutlinedButton.icon(
-                      onPressed: isSolved ? null : _openHintShop,
+                      onPressed: _openHintShop,
                       icon: const Text('💡', style: TextStyle(fontSize: 16)),
                       label: const Text('HINT SHOP'),
                     ),
 
-                    // Backspace button for convenience
+                    // Native Keyboard summon button
                     IconButton(
-                      onPressed: isSolved ? null : _onBackspace,
-                      icon: const Icon(Icons.backspace_outlined, color: AppColors.primaryRose),
-                      tooltip: 'Backspace',
+                      onPressed: () {
+                        NativeKeyboardWrapper.requestKeyboard(_keyboardFocusNode);
+                      },
+                      icon: const Icon(Icons.keyboard, color: AppColors.sageGreenDark),
+                      tooltip: 'Open Native Keyboard',
                     ),
                   ],
                 ),
@@ -280,17 +295,16 @@ class _RebusScreenState extends State<RebusScreen> {
     );
   }
 
-  /// Dedicated Word Row with FittedBox to prevent awkward mid-word line breaking
-  Widget _buildDedicatedWordRow(RebusWordRow row, int rIdx, bool isDark) {
-    return Container(
-      margin: const EdgeInsets.symmetric(vertical: 6),
+  Widget _buildDedicatedWordRow(RebusWordRow wordRow, int rowIdx, bool isDark) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 6),
       child: FittedBox(
         fit: BoxFit.scaleDown,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: List.generate(
-            row.slots.length,
-            (sIdx) => _buildSlot(row.slots[sIdx], rIdx, sIdx, isDark),
+            wordRow.slots.length,
+            (sIdx) => _buildSlot(wordRow.slots[sIdx], rowIdx, sIdx, isDark),
           ),
         ),
       ),
@@ -301,62 +315,71 @@ class _RebusScreenState extends State<RebusScreen> {
     // Non-alphanumeric punctuation rendered as fixed separator
     if (slot.isPunctuation) {
       return Container(
-        width: 24,
-        height: 52,
-        alignment: Alignment.center,
+        margin: const EdgeInsets.symmetric(horizontal: 4),
+        padding: const EdgeInsets.symmetric(horizontal: 2),
         child: Text(
           slot.expectedChar,
           style: TextStyle(
             fontFamily: AppTypography.headingFont,
-            fontSize: 24,
+            fontSize: 28,
             fontWeight: FontWeight.bold,
-            color: isDark ? Colors.white60 : AppColors.textSecondaryLight,
+            color: isDark ? Colors.white54 : AppColors.textSecondaryLight,
           ),
         ),
       );
     }
 
     final isSelected = _engine!.activeRowIndex == rIdx && _engine!.activeSlotIndex == sIdx;
-    final isLocked = slot.isLocked || _engine!.isSolved;
+    final isLocked = slot.isLocked;
 
-    Color bgColor;
+    Color bg;
     Color borderColor;
 
     if (isLocked) {
-      bgColor = isDark ? const Color(0xFF1E3A2B) : AppColors.mintLockLight;
+      bg = isDark ? const Color(0xFF1E3A2B) : AppColors.mintLockLight;
       borderColor = isDark ? AppColors.mintLock : AppColors.mintLockBorder;
     } else if (isSelected) {
-      bgColor = isDark ? AppColors.cellActiveDark : AppColors.cellActiveLight;
+      bg = isDark ? AppColors.cellActiveDark : AppColors.cellActiveLight;
       borderColor = AppColors.primaryRose;
     } else {
-      bgColor = isDark ? AppColors.surfaceDark : AppColors.surfaceLight;
+      bg = isDark ? AppColors.surfaceDark : AppColors.surfaceLight;
       borderColor = isDark ? AppColors.cellBorderDark : AppColors.cellBorderLight;
     }
 
     return GestureDetector(
+      behavior: HitTestBehavior.opaque,
       onTap: () {
-        if (!_engine!.isSolved) {
-          setState(() {
-            _engine!.selectSlot(rIdx, sIdx);
-          });
-        }
+        setState(() {
+          _engine!.selectSlot(rIdx, sIdx);
+        });
+        NativeKeyboardWrapper.requestKeyboard(_keyboardFocusNode);
       },
       child: Container(
-        width: 48, // 48dp minimum touch target
+        width: 44,
         height: 52,
         margin: const EdgeInsets.symmetric(horizontal: 3),
         decoration: BoxDecoration(
-          color: bgColor,
-          borderRadius: BorderRadius.circular(10),
+          color: bg,
+          borderRadius: BorderRadius.circular(8),
           border: Border.all(
             color: borderColor,
             width: isSelected ? 2.5 : 1.5,
           ),
+          boxShadow: isSelected
+              ? [
+                  BoxShadow(
+                    color: AppColors.primaryRose.withValues(alpha: 0.35),
+                    blurRadius: 6,
+                    spreadRadius: 1,
+                  )
+                ]
+              : null,
         ),
-        alignment: Alignment.center,
-        child: Text(
-          slot.userChar,
-          style: AppTypography.cellLetter(isDark, isLocked: isLocked),
+        child: Center(
+          child: Text(
+            slot.userChar,
+            style: AppTypography.cellLetter(isDark, isLocked: isLocked),
+          ),
         ),
       ),
     );

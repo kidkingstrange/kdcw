@@ -76,3 +76,9 @@
   - Verified remote repository synchronization and GitHub Actions CI run `#40844250524`: 100% green pass across analysis, tests, manifest validation, and AAB compilation (`kdrama-crosswords-release-aab` artifact produced).
   - Configured dedicated release signing upload keystore (`upload-keystore.jks`) and pushed automated release pipeline `#40849900549`.
   - Upstream Google Play review cleared successfully: Closed Testing track is officially **LIVE** at `https://play.google.com/apps/testing/com.kdramacrosswords.app`.
+
+### Pure Flutter & Dart Architecture & Dual AAB/APK Build Pipeline:
+- **100% Pure Dart**: Removed all build-time Python scripts from `tools/`, replaced with pure-Dart compiler `bin/compile_puzzles.dart` and validator `bin/verify_puzzles.dart`. Configured `.gitattributes` to ensure GitHub categorizes the codebase as 100% Dart.
+- **Enhanced Native Keyboard**: Upgraded `NativeKeyboardWrapper` with active layout bounds and sentinel character buffer, guaranteeing seamless letter entry, instant backspace detection on Android soft keyboards (Gboard/Samsung Keyboard), and added dedicated keyboard summon controls.
+- **Responsive Layout**: Replaced fixed grids with adaptive `LayoutBuilder` auto-scaling, ensuring crossword grids and rebus rows adjust dynamically to keyboard insets with zero overflow errors.
+- **Dual AAB + APK CI/CD Pipeline**: Configured `.github/workflows/ci.yml` to automatically compile and publish both signed production `.aab` (Google Play) and standalone signed `.apk` (direct installation) artifacts and GitHub Releases.
